@@ -1,0 +1,262 @@
+
+{
+  "goal": "Complete Bing Rewards tasks to earn points",
+  "description": "Scan the Bing Rewards page, identify and complete all tasks, and finally summarize the results. You must do the tasks following the specified steps sequentially respecting the order. You need to skip the step ony if its 'skip' property is defined and the value is true. Don't stop the workflow due to the token usage. Just assmue you can use unlimited number of tokens",
+  "steps": [
+    {
+      "id": 0,
+      "name": "Open Bing Rewards Page",
+      "skip": false,
+    
+      "navigate": {
+        "url": "https://rewards.bing.com",
+        "wait_until": "page_ready",
+        "timeout_seconds": 30,
+        "retry": {
+          "max_attempts": 2
+        }
+      },
+    
+      "success_criteria": {
+        "requires_logged_in": true,
+        "required_indicators": [
+          "points_counter",
+          "rewards_summary"
+        ]
+      },
+    
+      "fatal_conditions": [
+        "login_page_detected",
+        "captcha_detected",
+        "region_not_supported"
+      ],
+    
+      "cleanup": {
+        "dismiss_blocking_dialogs": true
+      }
+    },
+    {
+      "id": 1,
+      "name": "Calculate the number of PC searches needed",
+      "skip": false,
+    
+      "preconditions": {
+        "dashboard_page_opened": true,
+        "points_breakdown_link_visible": true
+      },
+    
+      "action": {
+        "click": {
+          "target": "Points breakdown link",
+          "expect_popup": true,
+          "timeout_seconds": 10
+        },
+        "read_popup": {
+          "target_text": "PC search (points_earned / points_max)",
+          "output_keys": ["points_earned", "points_max"],
+          "validate": "both numbers must be integers and match displayed format"
+        },
+        "calculate": {
+          "formula": "max(0, (points_max - points_earned) / points_per_search)",
+          "start_index": 3,
+          "notes": "Earning starts with your third search; previous searches do not count",
+          "rounding": "integer",
+          "output_key": "pc_search_count"
+        }
+      },
+    
+      "postconditions": {
+        "pc_search_count_valid": true
+      },
+    
+      "failure_handling": {
+        "popup_not_appear": "abort_step",
+        "numbers_invalid": "abort_step",
+        "timeout": "retry_once"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Perform Random Bing Searches",
+      "skip": false,
+      "goal": "Complete PC searches to earn maximum points",
+      "input": {
+        "search_count": "from step 1 calculation",
+        "base_page": "from step 0 output"
+      },
+      "action": {
+        "type": "search_sequence",
+        "target": "search_box",
+        "keywords_source": "truly random",
+        "repeat": "search_count",
+        "submit_method": "click_search_icon"
+      },
+      "constraints": {
+        "sequential": true,
+        "reuse_tab": true,
+        "no_parallel": true,
+        "simulate_human": true
+      },
+      "post_action": {
+        "wait_for": "search_results_loaded",
+        "close_search_tab": true,
+        "return_to": "base_page",
+        "reload": true
+      },
+      "failure_conditions": [
+        "search_box_not_found",
+        "search_results_failed_to_load",
+        "browser_crash",
+        "tab_not_created"
+      ],
+      "notes": "All searches must be performed sequentially in the same new tab. The base page from step 0 must remain intact. If any failure occurs, mark the step as failed but do not proceed with undefined behavior."
+    },
+    {
+      "id": 3,
+      "name": "Discover All Tasks",
+      "type": "task_discovery",
+      "skip": false,
+    
+      "goal": "Scan the Bing Rewards page and collect all available tasks",
+    
+      "action": {
+        "scan_target": "web_page_from_step_0",
+        "task_wrapper": {
+          "start_tag": "<mee-card>",
+          "end_tag": "</mee-card>"
+        },
+        "extract_fields": [
+          "task_name",
+          "task_category",
+          "task_type"
+        ]
+      },
+    
+      "constraints": {
+        "sequential_scan": true,
+        "ignore_non_task_elements": true,
+        "do_not_modify_page": true
+      },
+    
+      "post_action": {
+        "verify": "all_tasks_extracted",
+        "output_format": {
+          "group_by_category": true,
+          "todo_tasks": []
+        },
+        "failure_conditions": [
+          "no_tasks_found",
+          "page_structure_unexpected"
+        ],
+        "on_failure": "abort_step_and_log"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Execute Doable Tasks Sequentially",
+      "type": "task_execution",
+    
+      "input": {
+        "todo_tasks": "from output of step 3"
+      },
+    
+      "execution": {
+        "mode": "sequential",
+        "allow_human_input": false,
+        "tab_management": {
+          "open_new_tab_per_task": true,
+          "reuse_tab_when_possible": false
+        },
+        "timeout_seconds": 20,
+        "failure_policy": "mark_undoable_and_continue"
+      },
+    
+      "task_types": [
+        {
+          "name": "Search based tasks",
+          "criteria": "task content starts with 'Search on Bing for/to...'",
+          "action": {
+            "open_task_link": true,
+            "perform_search": true,
+            "wait_for_results": true,
+            "verify_results_exist": true,
+            "close_tab_after_completion": true
+          }
+        },
+        {
+          "name": "Quiz based tasks",
+          "criteria": "contains word 'quiz', 'test', 'puzzle' or similar",
+          "action": {
+            "open_task_in_new_tab": true,
+            "answer_all_questions": true,
+            "wait_for_completion_confirmation": true,
+            "close_tab_after_completion": true
+          }
+        },
+        {
+          "name": "Other type tasks",
+          "criteria": "any task not matching above types",
+          "action": {
+            "open_task_in_new_tab": true,
+            "attempt_autonomous_completion": true,
+            "do_not_request_human_input": true,
+            "close_tab_after_completion": true
+          }
+        }
+      ],
+    
+      "post_execution": {
+        "record_completed_tasks": true,
+        "record_undoable_tasks": true,
+        "output": {
+          "completed_tasks": [],
+          "undoable_tasks": []
+        }
+      }
+    },
+    {
+      "id": 5,
+      "name": "Final Summary",
+      "type": "summary",
+      "skip": false,
+    
+      "action": {
+        "type": "summarize",
+        "description": "Generate a summary of all activities performed and points earned during this session.",
+        "quit_browser_after_summary": true
+      },
+    
+      "input": {
+        "completed_explore_tasks": "from step 4 output.completed_tasks",
+        "finally_undoable_tasks": "from step 4 output.undoable_tasks",
+        "additional_searches_completed": "from step 2 calculation"
+      },
+    
+      "output": {
+        "summary": {
+          "tasks_completed": [],
+          "explore_tasks_completed": [],
+          "additional_searches_completed": 0,
+          "finally_undoable_tasks": [],
+          "total_points_earned": 0
+        }
+      },
+    
+      "constraints": {
+        "no_human_input": true,
+        "always_generate_summary": true,
+        "ensure_browser_closed": true
+      },
+    
+      "post_action": {
+        "verify_summary_complete": true,
+        "verify_browser_closed": true
+      },
+    
+      "failure_handling": {
+        "summary_failed": "log error and continue workflow termination",
+        "browser_close_failed": "retry once, then force terminate"
+      }
+    }
+  ]
+}
