@@ -7,30 +7,28 @@
       "id": 0,
       "name": "Open Bing Rewards Page",
       "skip": false,
-    
       "navigate": {
         "url": "https://rewards.bing.com",
-        "wait_until": "page_ready",
-        "timeout_seconds": 30,
+        "wait until": "page_ready",
+        "timeout in seconds": 30,
         "retry": {
-          "max_attempts": 2
-        }
+          "max attempts": 2,
+          "delay in seconds": 3
+        },
+        "browser in headless mode": true
       },
-    
-      "success_criteria": {
-        "requires_logged_in": true,
-        "required_indicators": [
+      "success criteria": {
+        "logged in": true,
+        "required indicators": [
           "points_counter",
           "rewards_summary"
         ]
       },
-    
       "fatal_conditions": [
-        "login_page_detected",
-        "captcha_detected",
-        "region_not_supported"
+        "login page detected",
+        "captcha detected",
+        "region not supported"
       ],
-    
       "cleanup": {
         "dismiss_blocking_dialogs": true
       }
@@ -39,17 +37,15 @@
       "id": 1,
       "name": "Calculate the number of PC searches needed",
       "skip": false,
-    
       "preconditions": {
         "dashboard_page_opened": true,
         "points_breakdown_link_visible": true
       },
-    
       "action": {
         "click": {
-          "target": "Points breakdown link",
+          "link": "Points breakdown",
           "expect_popup": true,
-          "timeout_seconds": 10
+          "timeout_seconds": 5
         },
         "read_popup": {
           "target_text": "PC search (points_earned / points_max)",
@@ -58,17 +54,14 @@
         },
         "calculate": {
           "formula": "max(0, (points_max - points_earned) / points_per_search)",
-          "start_index": 3,
           "notes": "Earning starts with your third search; previous searches do not count",
           "rounding": "integer",
           "output_key": "pc_search_count"
         }
       },
-    
       "postconditions": {
         "pc_search_count_valid": true
       },
-    
       "failure_handling": {
         "popup_not_appear": "abort_step",
         "numbers_invalid": "abort_step",
@@ -84,24 +77,43 @@
         "search_count": "from step 1 calculation",
         "base_page": "from step 0 output"
       },
-      "action": {
-        "type": "search_sequence",
-        "target": "search_box",
-        "keywords_source": "truly random",
-        "repeat": "search_count",
-        "submit_method": "click_search_icon"
+      "context policy": {
+        "iteration scope": "isolated",
+        "carry over allowed": [
+          "remaining_search_count"
+        ],
+        "carry over disallowed": [
+          "previous keywords",
+          "previous search results",
+          "previous reasoning",
+          "observations",
+          "intermediate outputs"
+        ],
+        "instruction": "Each search iteration must be treated as an independent action. Do not reference or rely on any output, reasoning, or content from previous search iterations."
       },
+      "action": {
+        "target": "search box on rewards page",
+        "keywords source": "randomly generated keywords relevant to popular topics",
+        "repeat": "search count",
+        "submit search method": "click search icon",
+        "output the number of tokens used for each search": true,
+        "making individual tool calls for each search": true
+      },
+      "never do things": [
+        "skip the steps due to high number of searches"
+      ],
       "constraints": {
         "sequential": true,
-        "reuse_tab": true,
-        "no_parallel": true,
-        "simulate_human": true
+        "in parallel": false,
+        "reuse browser tab": true,
+        "delay between searches in seconds to avoid throttle": "randomly between 5 and 10",
+        "execute by generated script": false,
+        "execute in batch": false
       },
-      "post_action": {
-        "wait_for": "search_results_loaded",
-        "close_search_tab": true,
-        "return_to": "base_page",
-        "reload": true
+      "post-action": {
+        "close all search tabs": true,
+        "return to": "rewards page",
+        "refresh": true
       },
       "failure_conditions": [
         "search_box_not_found",
@@ -116,9 +128,7 @@
       "name": "Discover All Tasks",
       "type": "task_discovery",
       "skip": false,
-    
       "goal": "Scan the Bing Rewards page and collect all available tasks",
-    
       "action": {
         "scan_target": "web_page_from_step_0",
         "task_wrapper": {
@@ -131,22 +141,20 @@
           "task_type"
         ]
       },
-    
       "constraints": {
         "sequential_scan": true,
         "ignore_non_task_elements": true,
         "do_not_modify_page": true
       },
-    
-      "post_action": {
+      "post action": {
         "verify": "all_tasks_extracted",
-        "output_format": {
-          "group_by_category": true,
-          "todo_tasks": []
+        "output format": {
+          "group by category": true,
+          "todo tasks": []
         },
         "failure_conditions": [
-          "no_tasks_found",
-          "page_structure_unexpected"
+          "no tasks found",
+          "page structure unexpected"
         ],
         "on_failure": "abort_step_and_log"
       }
@@ -154,24 +162,21 @@
     {
       "id": 4,
       "name": "Execute Doable Tasks Sequentially",
-      "type": "task_execution",
-    
+      "type": "task execution",
       "input": {
-        "todo_tasks": "from output of step 3"
+        "todo tasks": "from output of step 3"
       },
-    
       "execution": {
         "mode": "sequential",
-        "allow_human_input": false,
-        "tab_management": {
-          "open_new_tab_per_task": true,
-          "reuse_tab_when_possible": false
+        "allow human input": false,
+        "tab management": {
+          "open new tab per task": true,
+          "reuse tab when possible": false
         },
-        "timeout_seconds": 20,
-        "failure_policy": "mark_undoable_and_continue"
+        "timeout seconds": 20,
+        "failure policy": "mark undoable and continue"
       },
-    
-      "task_types": [
+      "task types": [
         {
           "name": "Search based tasks",
           "criteria": "task content starts with 'Search on Bing for/to...'",
@@ -219,19 +224,16 @@
       "name": "Final Summary",
       "type": "summary",
       "skip": false,
-    
       "action": {
         "type": "summarize",
         "description": "Generate a summary of all activities performed and points earned during this session.",
         "quit_browser_after_summary": true
       },
-    
       "input": {
         "completed_explore_tasks": "from step 4 output.completed_tasks",
         "finally_undoable_tasks": "from step 4 output.undoable_tasks",
         "additional_searches_completed": "from step 2 calculation"
       },
-    
       "output": {
         "summary": {
           "tasks_completed": [],
@@ -241,18 +243,16 @@
           "total_points_earned": 0
         }
       },
-    
       "constraints": {
         "no_human_input": true,
         "always_generate_summary": true,
         "ensure_browser_closed": true
       },
-    
       "post_action": {
         "verify_summary_complete": true,
-        "verify_browser_closed": true
+        "verify_browser_closed": true,
+        "close the browser if still open": true
       },
-    
       "failure_handling": {
         "summary_failed": "log error and continue workflow termination",
         "browser_close_failed": "retry once, then force terminate"
