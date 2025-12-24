@@ -1,0 +1,686 @@
+### Page state
+- Page URL: https://rewards.bing.com/
+- Page Title: Microsoft Rewards
+- Page Snapshot:
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - generic "Rewards Header" [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e7]:
+            - link "Skip to main content" [ref=e8] [cursor=pointer]:
+              - /url: "#main-content-landing"
+            - link "Rewards" [ref=e9] [cursor=pointer]:
+              - /url: /
+              - img "Rewards" [ref=e10]
+            - link "Rewards" [ref=e11] [cursor=pointer]:
+              - /url: /
+              - text: Microsoft | Rewards
+            - button "···" [ref=e13] [cursor=pointer]
+          - generic "LC Pitt" [ref=e15]:
+            - button "Default profile image" [ref=e17]
+    - main "pagearia" [ref=e18]:
+      - main [ref=e19]:
+        - main [ref=e23]:
+          - generic [ref=e28]:
+            - generic [ref=e34]:
+              - heading "Hi LC" [level=1] [ref=e1159]
+              - generic [ref=e36]:
+                - paragraph [ref=e37]: Level 2
+                - button "Level info" [ref=e1160] [cursor=pointer]: 
+            - generic [ref=e39]:
+              - generic [ref=e47]:
+                - generic [ref=e48]:
+                  - img "medal image" [ref=e1161]
+                  - generic [ref=e50]:
+                    - paragraph [ref=e51]: Available points
+                    - button "Reward points available to redeem for prizes" [ref=e1162] [cursor=pointer]: 
+                  - paragraph [ref=e53]:
+                    - generic [ref=e54]: 3,705
+                - link "Redeem " [ref=e1163] [cursor=pointer]:
+                  - /url: /redeem?form=dash_1
+                  - generic [ref=e56]: Redeem
+                  - text: 
+              - generic [ref=e64]:
+                - generic [ref=e65]:
+                  - generic [ref=e66]:
+                    - img "item image" [ref=e1164]
+                    - img "shadow image" [ref=e1165]
+                  - generic [ref=e69]:
+                    - paragraph [ref=e70]: Auto-redeem
+                    - button "Auto-redeem allows you to choose a prize or nonprofit and redeem that prize every month or as soon as you have enough points." [ref=e1166] [cursor=pointer]: 
+                  - paragraph [ref=e72]: "-"
+                - link "Setup " [ref=e1167] [cursor=pointer]:
+                  - /url: /redeem
+                  - generic [ref=e74]: Setup
+                  - text: 
+              - generic [ref=e82]:
+                - generic [ref=e83]:
+                  - img "coins image" [ref=e1168]
+                  - generic [ref=e85]:
+                    - paragraph [ref=e86]: Today's points
+                    - button "The total amount of Rewards points you have earned today." [ref=e1169] [cursor=pointer]: 
+                  - paragraph [ref=e88]:
+                    - generic [ref=e89]: "585"
+                - link "Points breakdown " [ref=e1170] [cursor=pointer]:
+                  - /url: /pointsbreakdown
+                  - generic [ref=e91]: Points breakdown
+                  - text: 
+              - text:  
+          - navigation [ref=e93]:
+            - tablist [ref=e94]:
+              - tab "Earn 1 of 6" [selected] [ref=e1171] [cursor=pointer]:
+                - generic [ref=e96]: Earn
+              - tab "Redeem 2 of 6" [ref=e1172] [cursor=pointer]:
+                - generic [ref=e98]: Redeem
+              - tab "1 Million Point Sweepstakes 3 of 6" [ref=e1173] [cursor=pointer]:
+                - generic [ref=e101]: 1 Million Point Sweepstakes
+              - tab "Status 4 of 6" [ref=e1174] [cursor=pointer]:
+                - generic [ref=e103]: Status
+              - tab "Winners 0 of 6" [ref=e1175] [cursor=pointer]:
+                - generic [ref=e105]: Winners
+              - tab "Refer and Earn 6 of 6" [ref=e1176] [cursor=pointer]:
+                - generic [ref=e107]: Refer and Earn
+          - generic [ref=e111]:
+            - generic [ref=e112]: "Limited-time referral bonus: 5x points per search! Expires Jan 7, 2026*"
+            - button "Share Now" [ref=e1177] [cursor=pointer]
+          - generic [ref=e114]:
+            - link "Earn 5x Points for 3 Weeks!, Invite friends now—every search earns you 5x points until 1/8!" [ref=e1178] [cursor=pointer]:
+              - /url: https://rewards.bing.com/referandearn
+              - generic "Earn 5x Points for 3 Weeks!, Invite friends now—every search earns you 5x points until 1/8!" [ref=e1179]:
+                - generic [ref=e119]:
+                  - generic [ref=e120]:
+                    - button "Close" [ref=e1180]: 
+                    - img [ref=e122]
+                  - generic [ref=e124]:
+                    - heading "Earn 5x Points for 3 Weeks!" [level=2] [ref=e1181]
+                    - paragraph [ref=e126]: Invite friends now—every search earns you 5x points until 1/8!
+                    - generic [ref=e128]: Refer Now
+            - generic [ref=e130]:
+              - heading "Earn points with Bing searches" [level=3] [ref=e1182]
+              - paragraph [ref=e132]: Limited time. Earn up to 300 points per day, 5 points per search. Earning starts with your third search
+              - search [ref=e134]:
+                - link "Search and earn points" [ref=e1183] [cursor=pointer]:
+                  - img [ref=e136]
+                - combobox "Search and earn points" [ref=e1184]
+                - generic:
+                  - generic: 
+            - region "Explore on Bing" [ref=e1185]:
+              - heading "Explore on Bing" [level=3] [ref=e1186]
+              - button "Complete the right search in each of the provided categories to earn points! Try again if you don't get it on your first search." [ref=e1187] [cursor=pointer]: 
+              - generic "Explore on Bing":
+                - generic:
+                  - listitem [ref=e145]:
+                    - generic "Find deals on Bing, Search on Bing to find items on your shopping list, Complete" [ref=e1188] [cursor=pointer]:
+                      - link "Find deals on Bing, Search on Bing to find items on your shopping list, Complete" [ref=e1189]:
+                        - /url: https://www.bing.com/?form=ML2PCR&OCID=ML2PCR&PUBL=RewardsDO&CREA=ML2PCR&rwAutoFlyout=exb
+                        - generic [ref=e152]:
+                          - img "Points you have earned" [ref=e1190]: 
+                          - text: "10"
+                        - generic [ref=e157]:
+                          - img
+                        - generic [ref=e158]:
+                          - heading "Find deals on Bing" [level=3] [ref=e1191]
+                          - paragraph [ref=e160]: Search on Bing to find items on your shopping list
+                        - generic [ref=e161]: Complete >
+                      - img "Offer is unlocked" [ref=e1192]
+                  - listitem [ref=e164]:
+                    - generic "Plan your future, Search on Bing to compare personal and student loan options, Complete" [ref=e1193] [cursor=pointer]:
+                      - link "Plan your future, Search on Bing to compare personal and student loan options, Complete" [ref=e1194]:
+                        - /url: https://www.bing.com/?form=ML2PCR&OCID=ML2PCR&PUBL=RewardsDO&CREA=ML2PCR&rwAutoFlyout=exb
+                        - generic [ref=e171]:
+                          - img "Points you have earned" [ref=e1195]: 
+                          - text: "10"
+                        - generic [ref=e176]:
+                          - img
+                        - generic [ref=e177]:
+                          - heading "Plan your future" [level=3] [ref=e1196]
+                          - paragraph [ref=e179]: Search on Bing to compare personal and student loan options
+                        - generic [ref=e180]: Complete >
+                      - img "Offer is unlocked" [ref=e1197]
+                  - listitem [ref=e183]:
+                    - generic "Know your score, Search on Bing to check your credit report and raise your score, Complete" [ref=e1198] [cursor=pointer]:
+                      - link "Know your score, Search on Bing to check your credit report and raise your score, Complete" [ref=e1199]:
+                        - /url: https://www.bing.com/?form=ML2PCR&OCID=ML2PCR&PUBL=RewardsDO&CREA=ML2PCR&rwAutoFlyout=exb
+                        - generic [ref=e190]:
+                          - img "Points you have earned" [ref=e1200]: 
+                          - text: "10"
+                        - generic [ref=e195]:
+                          - img
+                        - generic [ref=e196]:
+                          - heading "Know your score" [level=3] [ref=e1201]
+                          - paragraph [ref=e198]: Search on Bing to check your credit report and raise your score
+                        - generic [ref=e199]: Complete >
+                      - img "Offer is unlocked" [ref=e1202]
+                  - listitem [ref=e202]:
+                    - generic "Save more today, Search on Bing for the latest coupon codes and discounts, Complete" [ref=e1203] [cursor=pointer]:
+                      - link "Save more today, Search on Bing for the latest coupon codes and discounts, Complete" [ref=e1204]:
+                        - /url: https://www.bing.com/?form=ML2PCR&OCID=ML2PCR&PUBL=RewardsDO&CREA=ML2PCR&rwAutoFlyout=exb
+                        - generic [ref=e209]:
+                          - img "Points you have earned" [ref=e1205]: 
+                          - text: "10"
+                        - generic [ref=e214]:
+                          - img
+                        - generic [ref=e215]:
+                          - heading "Save more today" [level=3] [ref=e1206]
+                          - paragraph [ref=e217]: Search on Bing for the latest coupon codes and discounts
+                        - generic [ref=e218]: Complete >
+                      - img "Offer is unlocked" [ref=e1207]
+                  - listitem [ref=e221]:
+                    - generic "Sleep better, Search on Bing to find top-rated mattresses at great prices, Complete" [ref=e1208] [cursor=pointer]:
+                      - link "Sleep better, Search on Bing to find top-rated mattresses at great prices, Complete" [ref=e1209]:
+                        - /url: https://www.bing.com/?form=ML2PCR&OCID=ML2PCR&PUBL=RewardsDO&CREA=ML2PCR&rwAutoFlyout=exb
+                        - generic [ref=e228]:
+                          - img "Points you have earned" [ref=e1210]: 
+                          - text: "10"
+                        - generic [ref=e233]:
+                          - img
+                        - generic [ref=e234]:
+                          - heading "Sleep better" [level=3] [ref=e1211]
+                          - paragraph [ref=e236]: Search on Bing to find top-rated mattresses at great prices
+                        - generic [ref=e237]: Complete >
+                      - img "Offer is unlocked" [ref=e1212]
+                  - listitem [ref=e240]:
+                    - generic "Treat your pet, Search on Bing for toys, food, and gear for your furry friend, Complete" [ref=e1213] [cursor=pointer]:
+                      - link "Treat your pet, Search on Bing for toys, food, and gear for your furry friend, Complete" [ref=e1214]:
+                        - /url: https://www.bing.com/?form=ML2PCR&OCID=ML2PCR&PUBL=RewardsDO&CREA=ML2PCR&rwAutoFlyout=exb
+                        - generic [ref=e247]:
+                          - img "Points you have earned" [ref=e1215]: 
+                          - text: "10"
+                        - generic [ref=e252]:
+                          - img
+                        - generic [ref=e253]:
+                          - heading "Treat your pet" [level=3] [ref=e1216]
+                          - paragraph [ref=e255]: Search on Bing for toys, food, and gear for your furry friend
+                        - generic [ref=e256]: Complete >
+                      - img "Offer is unlocked" [ref=e1217]
+                  - listitem [ref=e259]:
+                    - generic "Park with ease, Search on Bing to reserve airport parking at the best rates, Complete" [ref=e1218] [cursor=pointer]:
+                      - link "Park with ease, Search on Bing to reserve airport parking at the best rates, Complete" [ref=e1219]:
+                        - /url: https://www.bing.com/?form=ML2PCR&OCID=ML2PCR&PUBL=RewardsDO&CREA=ML2PCR&rwAutoFlyout=exb
+                        - generic [ref=e266]:
+                          - img "Points you have earned" [ref=e1220]: 
+                          - text: "10"
+                        - generic [ref=e271]:
+                          - img
+                        - generic [ref=e272]:
+                          - heading "Park with ease" [level=3] [ref=e1221]
+                          - paragraph [ref=e274]: Search on Bing to reserve airport parking at the best rates
+                        - generic [ref=e275]: Complete >
+                      - img "Offer is unlocked" [ref=e1222]
+                  - listitem [ref=e278]:
+                    - generic "Shine bright, Search on Bing to find stunning jewelry for any occasion, Complete" [ref=e1223] [cursor=pointer]:
+                      - link "Shine bright, Search on Bing to find stunning jewelry for any occasion, Complete" [ref=e1224]:
+                        - /url: https://www.bing.com/?form=ML2PCR&OCID=ML2PCR&PUBL=RewardsDO&CREA=ML2PCR&rwAutoFlyout=exb
+                        - generic [ref=e285]:
+                          - img "Points you have earned" [ref=e1225]: 
+                          - text: "10"
+                        - generic [ref=e290]:
+                          - img
+                        - generic [ref=e291]:
+                          - heading "Shine bright" [level=3] [ref=e1226]
+                          - paragraph [ref=e293]: Search on Bing to find stunning jewelry for any occasion
+                        - generic [ref=e294]: Complete >
+                      - img "Offer is unlocked" [ref=e1227]
+                  - listitem [ref=e297]:
+                    - generic "Plan a quick getaway, Search on Bing for a flight to your perfect vacation, Complete" [ref=e1228] [cursor=pointer]:
+                      - link "Plan a quick getaway, Search on Bing for a flight to your perfect vacation, Complete" [ref=e1229]:
+                        - /url: https://www.bing.com/?form=ML2PCR&OCID=ML2PCR&PUBL=RewardsDO&CREA=ML2PCR&rwAutoFlyout=exb
+                        - generic [ref=e304]:
+                          - img "Points you have earned" [ref=e1230]: 
+                          - text: "10"
+                        - generic [ref=e309]:
+                          - img
+                        - generic [ref=e310]:
+                          - heading "Plan a quick getaway" [level=3] [ref=e1231]
+                          - paragraph [ref=e312]: Search on Bing for a flight to your perfect vacation
+                        - generic [ref=e313]: Complete >
+                      - img "Offer is unlocked" [ref=e1232]
+                  - listitem [ref=e316]:
+                    - generic "What's new?, Search on Bing for the latest news, Complete" [ref=e1233] [cursor=pointer]:
+                      - link "What's new?, Search on Bing for the latest news, Complete" [ref=e1234]:
+                        - /url: https://www.bing.com/?form=ML2PCR&OCID=ML2PCR&PUBL=RewardsDO&CREA=ML2PCR&rwAutoFlyout=exb
+                        - generic [ref=e323]:
+                          - img "Points you have earned" [ref=e1235]: 
+                          - text: "10"
+                        - generic [ref=e328]:
+                          - img
+                        - generic [ref=e329]:
+                          - heading "What's new?" [level=3] [ref=e1236]
+                          - paragraph [ref=e331]: Search on Bing for the latest news
+                        - generic [ref=e332]: Complete >
+                      - img "Offer is unlocked" [ref=e1237]
+                  - listitem [ref=e335]:
+                    - generic "Discover open job roles, Search on Bing for open roles at a specific company, Complete" [ref=e1238] [cursor=pointer]:
+                      - link "Discover open job roles, Search on Bing for open roles at a specific company, Complete" [ref=e1239]:
+                        - /url: https://www.bing.com/?form=ML2PCR&OCID=ML2PCR&PUBL=RewardsDO&CREA=ML2PCR&rwAutoFlyout=exb
+                        - generic [ref=e342]:
+                          - img "Points you have earned" [ref=e1240]: 
+                          - text: "10"
+                        - generic [ref=e347]:
+                          - img
+                        - generic [ref=e348]:
+                          - heading "Discover open job roles" [level=3] [ref=e1241]
+                          - paragraph [ref=e350]: Search on Bing for open roles at a specific company
+                        - generic [ref=e351]: Complete >
+                      - img "Offer is unlocked" [ref=e1242]
+                  - listitem [ref=e354]:
+                    - generic "Find your next read, Search on Bing to find deals and reviews for your next book., Complete" [ref=e1243] [cursor=pointer]:
+                      - link "Find your next read, Search on Bing to find deals and reviews for your next book., Complete" [ref=e1244]:
+                        - /url: https://www.bing.com/?form=ML2PCR&OCID=ML2PCR&PUBL=RewardsDO&CREA=ML2PCR&rwAutoFlyout=exb
+                        - generic [ref=e361]:
+                          - img "Points you have earned" [ref=e1245]: 
+                          - text: "20"
+                        - generic [ref=e366]:
+                          - img
+                        - generic [ref=e367]:
+                          - heading "Find your next read" [level=3] [ref=e1246]
+                          - paragraph [ref=e369]: Search on Bing to find deals and reviews for your next book.
+                        - generic [ref=e370]: Complete >
+                      - img "Offer is unlocked" [ref=e1247]
+                  - listitem [ref=e373]:
+                    - generic "Get creative, Search on Bing for fun DIY kits and craft supplies., Start crafting" [ref=e1248] [cursor=pointer]:
+                      - link "Get creative, Search on Bing for fun DIY kits and craft supplies., Start crafting" [active] [ref=e1249]:
+                        - /url: https://www.bing.com/?form=ML2PCR&OCID=ML2PCR&PUBL=RewardsDO&CREA=ML2PCR&rwAutoFlyout=exb
+                        - generic [ref=e380]:
+                          - img "Points in progress" [ref=e1360]
+                          - text: "50"
+                        - generic [ref=e385]:
+                          - img
+                        - generic [ref=e386]:
+                          - heading "Get creative" [level=3] [ref=e1251]
+                          - paragraph [ref=e388]: Search on Bing for fun DIY kits and craft supplies.
+                        - generic [ref=e389]: Start crafting >
+                      - img "Offer is unlocked" [ref=e1252]
+            - generic [ref=e393]:
+              - heading "Daily set" [level=3] [ref=e1253]
+              - button "Learn more about daily sets" [ref=e1254] [cursor=pointer]: 
+              - generic [ref=e398]:
+                - button "ON" [ref=e1255]:
+                  - paragraph [ref=e402]: "ON"
+                - paragraph [ref=e404]: Streak protection
+                - button "You’ve utilized 0 out of 14 “streak protection” days." [ref=e1256] [cursor=pointer]: 
+              - button " GO BACK TO TODAY'S SET" [disabled] [ref=e1257]:
+                - text: 
+                - generic [ref=e412]: GO BACK TO TODAY'S SET
+              - button "SNEAK PEEK AT TOMORROW'S SET " [ref=e1258] [cursor=pointer]:
+                - generic [ref=e414]: SNEAK PEEK AT TOMORROW'S SET
+                - text: 
+              - generic:
+                - generic:
+                  - link "Waterfall wonders Explore the natural beauty of Plitvice Lakes 10 points" [ref=e1259] [cursor=pointer]:
+                    - /url: https://www.bing.com/search?q=Plitvice+Lakes&form=DSRCM4&OCID=DSRCM4&PUBL=RewardsDO&CREA=DSRCM4&rnoreward=1&filters=BTEPOKey%3A%22REWARDSQUIZ_DailySet_UrlOffer%22+BTDSUOID%3A%22Gamification_DailySet_20251221_Child1%22
+                    - generic [ref=e422]:
+                      - img "Points you have earned" [ref=e1260]: 
+                      - text: "10"
+                    - generic [ref=e427]:
+                      - img
+                    - generic [ref=e428]:
+                      - heading "Waterfall wonders" [level=3] [ref=e1261]
+                      - paragraph [ref=e430]: Explore the natural beauty of Plitvice Lakes
+                    - generic [ref=e431]: 10 points >
+                  - link "A, B, or C? Test your knowledge with today's Bing homepage quiz 10 points" [ref=e1262] [cursor=pointer]:
+                    - /url: https://www.bing.com/rewards/checkuser?rabruid=0&ru=%2Fsearch%3Fq%3DBing+homepage+quiz%26rnoreward%3D1%26skipopalnative%3Dtrue%26form=ML17QA%26filters%3DBTROID%3A%22Gamification_DailySet_20251221_Child2%22+BTROEC%3A%2210%22+BTROMC%3A%2210%22
+                    - generic [ref=e439]:
+                      - img "Points you have earned" [ref=e1263]: 
+                      - text: "10"
+                    - generic [ref=e444]:
+                      - img
+                    - generic [ref=e445]:
+                      - heading "A, B, or C?" [level=3] [ref=e1264]
+                      - paragraph [ref=e447]: Test your knowledge with today's Bing homepage quiz
+                    - generic [ref=e448]: 10 points >
+                  - link "Daily poll Pick your preference and see how you compare 10 points" [ref=e1265] [cursor=pointer]:
+                    - /url: https://www.bing.com/rewards/checkuser?rabruid=0&ru=%2Fsearch%3Fq%3DMastering+a+dance%26rnoreward%3D1%26skipopalnative%3Dtrue%26form=ML17QA%26filters%3DPollScenarioId%3A%22POLL_ENUS_RewardsDailyPoll_20251221%22+BTROID%3A%22Gamification_DailySet_20251221_Child3%22+BTROEC%3A%2210%22+BTROMC%3A%2210%22
+                    - generic [ref=e456]:
+                      - img "Points you have earned" [ref=e1266]: 
+                      - text: "10"
+                    - generic [ref=e461]:
+                      - img
+                    - generic [ref=e462]:
+                      - heading "Daily poll" [level=3] [ref=e1267]
+                      - paragraph [ref=e464]: Pick your preference and see how you compare
+                    - generic [ref=e465]: 10 points >
+              - text:   
+              - generic "6, Current day streak, Nice work! 2 more days to go before unlocking your 75-point bonus." [ref=e1268]:
+                - generic [ref=e468]:
+                  - generic [ref=e472]:
+                    - img
+                  - paragraph [ref=e474]: Current day streak
+                - paragraph [ref=e478]: Nice work! 2 more days to go before unlocking your 75-point bonus.
+                - generic [ref=e479]:
+                  - generic [ref=e483]:
+                    - img
+                  - paragraph [ref=e485]: Streak bonus
+            - generic [ref=e486]:
+              - heading "Quests and punch cards" [level=3] [ref=e1269]
+              - generic "Play" [ref=e1270]:
+                - region [ref=e979]:
+                  - generic [ref=e488]:
+                    - tablist [ref=e489]:
+                      - tab [selected] [ref=e490] [cursor=pointer]
+                      - tab [ref=e491] [cursor=pointer]
+                      - tab [ref=e492] [cursor=pointer]
+                      - tab [ref=e493] [cursor=pointer]
+                    - button "Pause" [ref=e1271] [cursor=pointer]: 
+                  - button [ref=e981] [cursor=pointer]: 
+                  - button [ref=e982] [cursor=pointer]: 
+                  - list [ref=e984]:
+                    - listitem [ref=e985]:
+                      - link "Earn while you cram, Get points toward Starbucks gift cards, Spotify, and more." [ref=e1272] [cursor=pointer]:
+                        - /url: https://rewards.bing.com/dashboard/ENUS_pcparent_CampusCollection_PC_punchcard
+                        - generic "Earn while you cram, Get points toward Starbucks gift cards, Spotify, and more." [ref=e1273]:
+                          - generic [ref=e988]:
+                            - img "Earn while you cram" [ref=e1274]
+                            - generic [ref=e992]:
+                              - heading "Earn while you cram" [level=1] [ref=e1275]
+                              - paragraph [ref=e994]: Get points toward Starbucks gift cards, Spotify, and more.
+                              - generic [ref=e996]:
+                                - text: Start today
+                                - generic [ref=e997]: 
+                            - generic [ref=e998]:
+                              - generic [ref=e1000]:
+                                - text: 
+                                - generic: 
+                              - generic [ref=e1002]:
+                                - text: 
+                                - generic: 
+                              - generic [ref=e1004]: 
+                    - text:                  
+            - generic [ref=e496]:
+              - heading "More activities" [level=3] [ref=e1276]
+              - list "More activities":
+                - generic:
+                  - listitem [ref=e498]:
+                    - generic "Points are poppin’, Get 20 Rewards points just for creating New Year magic., Create invites, images & more" [ref=e1277] [cursor=pointer]:
+                      - link "Points are poppin’, Get 20 Rewards points just for creating New Year magic., Create invites, images & more" [ref=e1278]:
+                        - /url: https://www.bing.com/images/create?form=airwpc&OCID=ML2XHP&PUBL=RewardsDO&CREA=ML2XHP&hva=3
+                        - img "Points you have earned" [ref=e1279]: 
+                        - img [ref=e509]
+                        - generic [ref=e510]:
+                          - heading "Points are poppin’" [level=3] [ref=e1280]
+                          - paragraph [ref=e512]: Get 20 Rewards points just for creating New Year magic.
+                        - generic [ref=e513]: Create invites, images & more >
+                  - listitem [ref=e514]:
+                    - 'generic "Redeem your Telegraph subscription today, Don’t miss out: 4 months of The Telegraph are yours to redeem., Redeem now" [ref=e1281] [cursor=pointer]':
+                      - 'link "Redeem your Telegraph subscription today, Don’t miss out: 4 months of The Telegraph are yours to redeem., Redeem now" [ref=e1282]':
+                        - /url: https://rewards.bing.com/redeem/000802000113?form=ML2WW2&OCID=ML2WW2&PUBL=RewardsDO&CREA=ML2WW2
+                        - img [ref=e523]
+                        - generic [ref=e524]:
+                          - heading "Redeem your Telegraph subscription today" [level=3] [ref=e1283]
+                          - paragraph [ref=e526]: "Don’t miss out: 4 months of The Telegraph are yours to redeem."
+                        - generic [ref=e527]: Redeem now >
+                  - listitem [ref=e528]:
+                    - 'generic "Last chance to win 1 million points, Create, record, and send in your #RewardsCrush video. Terms apply, Create a video" [ref=e1284] [cursor=pointer]':
+                      - 'link "Last chance to win 1 million points, Create, record, and send in your #RewardsCrush video. Terms apply, Create a video" [ref=e1285]':
+                        - /url: http://aka.ms/1MPoints?form=ML2XE8&OCID=ML2XE8&PUBL=RewardsDO&CREA=ML2XE8
+                        - img [ref=e537]
+                        - generic [ref=e538]:
+                          - heading "Last chance to win 1 million points" [level=3] [ref=e1286]
+                          - paragraph [ref=e540]: "Create, record, and send in your #RewardsCrush video. Terms apply"
+                        - generic [ref=e541]: Create a video >
+                  - listitem [ref=e542]:
+                    - generic "Late night studying? We brought snacks., Earn gift cards for DoorDash and more, just by searching on Bing., Get started" [ref=e1287] [cursor=pointer]:
+                      - link "Late night studying? We brought snacks., Earn gift cards for DoorDash and more, just by searching on Bing., Get started" [ref=e1288]:
+                        - /url: https://rewards.bing.com/dashboard/ENUS_pcparent_CampusCollection_PC_punchcard?form=ML2X9S&OCID=ML2X9S
+                        - img [ref=e551]
+                        - generic [ref=e552]:
+                          - heading "Late night studying? We brought snacks." [level=3] [ref=e1289]
+                          - paragraph [ref=e554]: Earn gift cards for DoorDash and more, just by searching on Bing.
+                        - generic [ref=e555]: Get started >
+                  - listitem [ref=e556]:
+                    - generic "Turn referrals into Rewards, Earn 15,000 points when friends search on Bing. Just share an invite., Let the rewards roll in" [ref=e1290] [cursor=pointer]:
+                      - link "Turn referrals into Rewards, Earn 15,000 points when friends search on Bing. Just share an invite., Let the rewards roll in" [ref=e1291]:
+                        - /url: https://rewards.bing.com/referandearn?form=ML2X5T&OCID=ML2X5T&PUBL=RewardsDO&CREA=ML2X5T
+                        - img [ref=e565]
+                        - generic [ref=e566]:
+                          - heading "Turn referrals into Rewards" [level=3] [ref=e1292]
+                          - paragraph [ref=e568]: Earn 15,000 points when friends search on Bing. Just share an invite.
+                        - generic [ref=e569]: Let the rewards roll in >
+                  - listitem [ref=e570]:
+                    - generic "Let your screen get stranger, Microsoft Flight Simulator 2024 brings Stranger Things to your desktop, Download Bing Wallpaper" [ref=e1293] [cursor=pointer]:
+                      - link "Let your screen get stranger, Microsoft Flight Simulator 2024 brings Stranger Things to your desktop, Download Bing Wallpaper" [ref=e1294]:
+                        - /url: https://www.bing.com/apps/wallpaper/themes/MS%20Flight%20Simulator%20x%20Stranger%20Things?pc=w283&index=0&form=ML2XHS&OCID=ML2XHS&PUBL=RewardsDO&CREA=ML2XHS
+                        - img [ref=e579]
+                        - generic [ref=e580]:
+                          - heading "Let your screen get stranger" [level=3] [ref=e1295]
+                          - paragraph [ref=e582]: Microsoft Flight Simulator 2024 brings Stranger Things to your desktop
+                        - generic [ref=e583]: Download Bing Wallpaper >
+                  - listitem [ref=e584]:
+                    - generic "Holiday gift for you, Cozy up with a favorite movie using nothing but points, Redeem now" [ref=e1296] [cursor=pointer]:
+                      - link "Holiday gift for you, Cozy up with a favorite movie using nothing but points, Redeem now" [ref=e1297]:
+                        - /url: https://rewards.bing.com/redeem/000400000427?form=ML2XGO&OCID=ML2XGO&PUBL=RewardsDO&CREA=ML2XGO
+                        - img [ref=e593]
+                        - generic [ref=e594]:
+                          - heading "Holiday gift for you" [level=3] [ref=e1298]
+                          - paragraph [ref=e596]: Cozy up with a favorite movie using nothing but points
+                        - generic [ref=e597]: Redeem now >
+                  - listitem [ref=e598]:
+                    - 'generic "Xbox fans: Get $100 in value, For a limited time, earn 10,000 card points ($100 value)! Terms apply., Apply for Xbox Mastercard" [ref=e1299] [cursor=pointer]':
+                      - 'link "Xbox fans: Get $100 in value, For a limited time, earn 10,000 card points ($100 value)! Terms apply., Apply for Xbox Mastercard" [ref=e1300]':
+                        - /url: https://www.xbox.com/xbox-mastercard?ocid=mcoffer_int_omc_xbo_MSFT-Rewards-NewOffer&channelname=BANNER&referrerid=MSFT-Rewards-NewOffer&form=ML2XEF&OCID=ML2XEF
+                        - img [ref=e607]
+                        - generic [ref=e608]:
+                          - 'heading "Xbox fans: Get $100 in value" [level=3] [ref=e1301]'
+                          - paragraph [ref=e610]: For a limited time, earn 10,000 card points ($100 value)! Terms apply.
+                        - generic [ref=e611]: Apply for Xbox Mastercard >
+                  - listitem [ref=e612]:
+                    - generic "Download Bing app to earn 500 points!, Scan the QR Code to unlock mobile-only rewards and redeem faster - just for new app users., Scan Now" [ref=e1302] [cursor=pointer]:
+                      - link "Download Bing app to earn 500 points!, Scan the QR Code to unlock mobile-only rewards and redeem faster - just for new app users., Scan Now" [ref=e1303]:
+                        - /url: https://bingapp.microsoft.com/bing?adjust=1ksll562_1kz0kzg9
+                        - generic [ref=e621]:
+                          - img
+                        - generic [ref=e622]:
+                          - heading "Download Bing app to earn 500 points!" [level=3] [ref=e1304]
+                          - paragraph [ref=e624]: Scan the QR Code to unlock mobile-only rewards and redeem faster - just for new app users.
+                        - generic [ref=e625]: Scan Now >
+                  - listitem [ref=e626]:
+                    - generic "Earn rewards anywhere with the Bing App, Download the Bing app now to claim 500 points as a new user!, Learn more" [ref=e1305] [cursor=pointer]:
+                      - link "Earn rewards anywhere with the Bing App, Download the Bing app now to claim 500 points as a new user!, Learn more" [ref=e1306]:
+                        - /url: https://bingapp.microsoft.com/bing?adjust=1mvyt97t_1mzjfafn
+                        - generic [ref=e633]:
+                          - img "Points you will earn" [ref=e1307]: 
+                          - text: "500"
+                        - img [ref=e638]
+                        - generic [ref=e639]:
+                          - heading "Earn rewards anywhere with the Bing App" [level=3] [ref=e1308]
+                          - paragraph [ref=e641]: Download the Bing app now to claim 500 points as a new user!
+                        - generic [ref=e642]: Learn more >
+                  - listitem [ref=e643]:
+                    - generic "Find nearby restaurants, Take a break and try a bite with these restaurants, Search restaurants" [ref=e1309] [cursor=pointer]:
+                      - link "Find nearby restaurants, Take a break and try a bite with these restaurants, Search restaurants" [ref=e1310]:
+                        - /url: https://www.bing.com/search?q=restaurants+near+me&form=ML20RB&OCID=ML20RB
+                        - generic [ref=e650]:
+                          - img "Points you have earned" [ref=e1311]: 
+                          - text: "10"
+                        - generic [ref=e655]:
+                          - img
+                        - generic [ref=e656]:
+                          - heading "Find nearby restaurants" [level=3] [ref=e1312]
+                          - paragraph [ref=e658]: Take a break and try a bite with these restaurants
+                        - generic [ref=e659]: Search restaurants >
+                  - listitem [ref=e660]:
+                    - generic "A new web hero, A browser that puts you first—performance, rewards, and safety. Oh my!, Learn more" [ref=e1313] [cursor=pointer]:
+                      - link "A new web hero, A browser that puts you first—performance, rewards, and safety. Oh my!, Learn more" [ref=e1314]:
+                        - /url: https://www.microsoft.com/en-us/edge/launch/offerseries2
+                        - generic [ref=e667]:
+                          - img "Points you will earn" [ref=e1315]: 
+                          - text: "50"
+                        - generic [ref=e672]:
+                          - img
+                        - generic [ref=e673]:
+                          - heading "A new web hero" [level=3] [ref=e1316]
+                          - paragraph [ref=e675]: A browser that puts you first—performance, rewards, and safety. Oh my!
+                        - generic [ref=e676]: Learn more >
+                  - listitem [ref=e677]:
+                    - generic "Search, shop & more on the go, Download & install the Bing app to earn 500 points. Terms apply., Download now" [ref=e1317] [cursor=pointer]:
+                      - link "Search, shop & more on the go, Download & install the Bing app to earn 500 points. Terms apply., Download now" [ref=e1318]:
+                        - /url: https://bingapp.microsoft.com/bing?adjust=veow7zj_mlp29sn
+                        - generic [ref=e686]:
+                          - img
+                        - generic [ref=e687]:
+                          - heading "Search, shop & more on the go" [level=3] [ref=e1319]
+                          - paragraph [ref=e689]: Download & install the Bing app to earn 500 points. Terms apply.
+                        - generic [ref=e690]: Download now >
+                  - listitem [ref=e691]:
+                    - generic "Set a goal, Set your first goal and earn 100 points! You'll get there in no time., Choose a goal" [ref=e1320] [cursor=pointer]:
+                      - link "Set a goal, Set your first goal and earn 100 points! You'll get there in no time., Choose a goal" [ref=e1321]:
+                        - /url: https://rewards.bing.com/goal/all
+                        - generic [ref=e698]:
+                          - img "Points you have earned" [ref=e1322]: 
+                          - text: "5"
+                        - generic [ref=e703]:
+                          - img
+                        - generic [ref=e704]:
+                          - heading "Set a goal" [level=3] [ref=e1323]
+                          - paragraph [ref=e706]: Set your first goal and earn 100 points! You'll get there in no time.
+                        - generic [ref=e707]: Choose a goal >
+                  - listitem [ref=e708]:
+                    - generic "Collect them all, Browse action figures from popular movies, games, and comics, Start shopping" [ref=e1324] [cursor=pointer]:
+                      - link "Collect them all, Browse action figures from popular movies, games, and comics, Start shopping" [ref=e1325]:
+                        - /url: https://www.bing.com/shop?q=action+figures&form=rwtosv
+                        - generic [ref=e717]:
+                          - img
+                        - generic [ref=e718]:
+                          - heading "Collect them all" [level=3] [ref=e1326]
+                          - paragraph [ref=e720]: Browse action figures from popular movies, games, and comics
+                        - generic [ref=e721]: Start shopping >
+                  - listitem [ref=e722]:
+                    - generic "Warpspeed quiz, 3 answers = 30 points. Use Bing to get there fast., 30 points" [ref=e1327] [cursor=pointer]:
+                      - link "Warpspeed quiz, 3 answers = 30 points. Use Bing to get there fast., 30 points" [ref=e1328]:
+                        - /url: https://www.bing.com/rewards/checkuser?rabruid=0&ru=%2Fsearch%3Fq%3DParrot%26rnoreward%3D1%26FORM%3DML12JG%26skipopalnative%3Dtrue%26rqpiodemo%3D1%26filters%3DBTEPOKey%3A%22REWARDSQUIZ_ENUS_EdgeBonus_20251215%22+BTROID%3A%22Gamification_DailySet_20251215_Child2%22+BTROEC%3A%2230%22+BTROMC%3A%2230%22
+                        - generic [ref=e729]:
+                          - img "Points you have earned" [ref=e1329]: 
+                          - text: "30"
+                        - generic [ref=e734]:
+                          - img
+                        - generic [ref=e735]:
+                          - heading "Warpspeed quiz" [level=3] [ref=e1330]
+                          - paragraph [ref=e737]: 3 answers = 30 points. Use Bing to get there fast.
+                        - generic [ref=e738]: 30 points >
+                  - listitem [ref=e739]:
+                    - generic "Supersonic quiz, Take 2 minutes or less to answer 3 questions and earn 30 points, 30 points" [ref=e1331] [cursor=pointer]:
+                      - link "Supersonic quiz, Take 2 minutes or less to answer 3 questions and earn 30 points, 30 points" [ref=e1332]:
+                        - /url: https://www.bing.com/rewards/checkuser?rabruid=0&ru=%2Fsearch%3Fq%3DWaltz%26rnoreward%3D1%26FORM%3DML12JG%26skipopalnative%3Dtrue%26rqpiodemo%3D1%26filters%3DBTEPOKey%3A%22REWARDSQUIZ_ENUS_MicrosoftRewardsQuizCB_20251216%22+BTROID%3A%22Gamification_DailySet_20251216_Child2%22+BTROEC%3A%2230%22+BTROMC%3A%2230%22
+                        - generic [ref=e746]:
+                          - img "Points you have earned" [ref=e1333]: 
+                          - text: "30"
+                        - generic [ref=e751]:
+                          - img
+                        - generic [ref=e752]:
+                          - heading "Supersonic quiz" [level=3] [ref=e1334]
+                          - paragraph [ref=e754]: Take 2 minutes or less to answer 3 questions and earn 30 points
+                        - generic [ref=e755]: 30 points >
+                  - listitem [ref=e756]:
+                    - generic "Know your celebrity news?, Test your pop culture IQ with our weekly entertainment quiz, 10 points" [ref=e1335] [cursor=pointer]:
+                      - link "Know your celebrity news?, Test your pop culture IQ with our weekly entertainment quiz, 10 points" [ref=e1336]:
+                        - /url: https://www.bing.com/rewards/checkuser?rabruid=0&ru=%2fsearch%3fq%3dbing+entertainment+quiz%26rnoreward%3d1%26FORM%3dML2UY7%26skipopalnative%3dtrue%26rqpiodemo%3d1%26filters%3dIsConversation%3a%22True%22+BTROID%3a%22Gamification_DailySet_20251217_Child2%22+BTROEC%3A%2210%22+BTROMC%3A%2210%22
+                        - generic [ref=e763]:
+                          - img "Points you have earned" [ref=e1337]: 
+                          - text: "10"
+                        - generic [ref=e768]:
+                          - img
+                        - generic [ref=e769]:
+                          - heading "Know your celebrity news?" [level=3] [ref=e1338]
+                          - paragraph [ref=e771]: Test your pop culture IQ with our weekly entertainment quiz
+                        - generic [ref=e772]: 10 points >
+                  - listitem [ref=e773]:
+                    - generic "Warpspeed quiz, 3 answers = 30 points. Use Bing to get there fast., 30 points" [ref=e1339] [cursor=pointer]:
+                      - link "Warpspeed quiz, 3 answers = 30 points. Use Bing to get there fast., 30 points" [ref=e1340]:
+                        - /url: https://www.bing.com/rewards/checkuser?rabruid=0&ru=%2Fsearch%3Fq%3DSushi+roll%26rnoreward%3D1%26FORM%3DML12JG%26skipopalnative%3Dtrue%26rqpiodemo%3D1%26filters%3DBTEPOKey%3A%22REWARDSQUIZ_ENUS_ThursdayBonus_20251218%22+BTROID%3A%22Gamification_DailySet_20251218_Child2%22+BTROEC%3A%2230%22+BTROMC%3A%2230%22
+                        - generic [ref=e780]:
+                          - img "Points you have earned" [ref=e1341]: 
+                          - text: "30"
+                        - generic [ref=e785]:
+                          - img
+                        - generic [ref=e786]:
+                          - heading "Warpspeed quiz" [level=3] [ref=e1342]
+                          - paragraph [ref=e788]: 3 answers = 30 points. Use Bing to get there fast.
+                        - generic [ref=e789]: 30 points >
+                  - listitem [ref=e790]:
+                    - generic "Test your smarts, Are you in the know when it comes to the news? Find out to earn 10 points., 10 points" [ref=e1343] [cursor=pointer]:
+                      - link "Test your smarts, Are you in the know when it comes to the news? Find out to earn 10 points., 10 points" [ref=e1344]:
+                        - /url: https://www.bing.com/rewards/checkuser?rabruid=0&ru=%2fsearch%3fq%3dweekly+quiz%26rnoreward%3d1%26FORM%3dML2UY8%26skipopalnative%3dtrue%26rqpiodemo%3d1%26filters%3dIsConversation%3a%22True%22+BTROID%3a%22Gamification_DailySet_20251219_Child2%22+BTROEC%3A%2210%22+BTROMC%3A%2210%22
+                        - generic [ref=e797]:
+                          - img "Points you have earned" [ref=e1345]: 
+                          - text: "10"
+                        - generic [ref=e802]:
+                          - img
+                        - generic [ref=e803]:
+                          - heading "Test your smarts" [level=3] [ref=e1346]
+                          - paragraph [ref=e805]: Are you in the know when it comes to the news? Find out to earn 10 points.
+                        - generic [ref=e806]: 10 points >
+            - generic [ref=e808]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - heading "Your goal" [level=5]
+                      - link "Order history":
+                        - /url: /redeem/orderhistory
+                        - generic: Go to your order history
+                        - text: 
+                    - generic [ref=e811]:
+                      - generic:
+                        - generic "You haven't set a goal yet, Start earning towards a redemption goal":
+                          - generic [ref=e815]:
+                            - img
+                          - generic [ref=e816]:
+                            - heading "You haven't set a goal yet" [level=2] [ref=e1347]
+                            - paragraph [ref=e818]: Start earning towards a redemption goal
+                            - link "Set goal " [ref=e1348] [cursor=pointer]:
+                              - /url: /goal/all
+                              - generic [ref=e821]: Set goal
+                              - text: 
+                  - generic:
+                    - heading "Your last reward" [level=5]
+                    - generic [ref=e824]:
+                      - generic:
+                        - generic "You haven't redeemed yet, See what you can redeem today.":
+                          - generic [ref=e828]:
+                            - img
+                          - generic [ref=e829]:
+                            - heading "You haven't redeemed yet" [level=2] [ref=e1349]
+                            - paragraph [ref=e831]: See what you can redeem today.
+                            - link "Redeem now " [ref=e1350] [cursor=pointer]:
+                              - /url: /redeem/all
+                              - generic [ref=e834]: Redeem now
+                              - text: 
+  - generic [ref=e837]:
+    - complementary "Help with Microsoft Rewards" [ref=e1351]:
+      - generic [ref=e840]:
+        - heading "Help with Microsoft Rewards" [level=2] [ref=e1352]
+        - separator [ref=e842]
+        - list [ref=e843]:
+          - listitem [ref=e844]:
+            - link "Find how to resolve common issues" [ref=e1353] [cursor=pointer]:
+              - /url: https://support.microsoft.com/topic/c5ab735d-c6d9-4bb9-30ad-d828e954b6a9
+          - listitem [ref=e846]:
+            - button "Provide feedback" [ref=e1354] [cursor=pointer]
+          - listitem [ref=e848]:
+            - link "Contact Microsoft Rewards support" [ref=e1355] [cursor=pointer]:
+              - /url: /support
+    - contentinfo [ref=e851]:
+      - generic [ref=e852]:
+        - link "English (United States)" [ref=e1356] [cursor=pointer]:
+          - /url: https://www.bing.com/account/general?ru=https://www.bing.com/rewards&id=language_section#language-section
+          - text:  English (United States)
+        - navigation [ref=e854]:
+          - list [ref=e855]:
+            - listitem [ref=e856]:
+              - link "Privacy and Cookies" [ref=e1357] [cursor=pointer]:
+                - /url: https://go.microsoft.com/fwlink/?LinkID=521839
+            - listitem [ref=e858]
+            - listitem [ref=e859]:
+              - link "Terms of use" [ref=e1358] [cursor=pointer]:
+                - /url: https://go.microsoft.com/fwlink/?LinkID=530144
+            - listitem [ref=e861]:
+              - link "Contact us" [ref=e1359] [cursor=pointer]:
+                - /url: https://support.microsoft.com/contactus
+            - listitem [ref=e863]: © Microsoft 2025
+  - iframe [ref=e864]:
+    
+  - status [ref=e865]
+  - text: 
+```

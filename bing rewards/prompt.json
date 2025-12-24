@@ -7,6 +7,14 @@
       "id": 0,
       "name": "Open Bing Rewards Page",
       "skip": false,
+      "preconditions": {
+        "internet_connection": true,
+        "valid_browser_profile": true,
+        "browser_used": "Playwright"
+      },
+      "pre-actions": {
+        "close all existing tabs": true
+      },
       "navigate": {
         "url": "https://rewards.bing.com",
         "wait until": "page_ready",
@@ -72,7 +80,7 @@
       "id": 2,
       "name": "Perform Random Bing Searches",
       "skip": false,
-      "goal": "Complete PC searches to earn maximum points",
+      "goal": "Complete PC searches to earn maximum points bearing in mind the things never do",
       "input": {
         "search_count": "from step 1 calculation",
         "base_page": "from step 0 output"
@@ -92,36 +100,45 @@
         "instruction": "Each search iteration must be treated as an independent action. Do not reference or rely on any output, reasoning, or content from previous search iterations."
       },
       "action": {
-        "target": "search box on rewards page",
-        "keywords source": "randomly generated keywords relevant to popular topics",
         "repeat": "search count",
-        "submit search method": "click search icon",
-        "output the number of tokens used for each search": true,
-        "making individual tool calls for each search": true
+        "keywords source": "randomly generated keywords relevant to popular topics",
+        "sequential sub actions to take for each search": [
+          "input keywords into search box on rewards page",
+          "click magnifier icon to submit",
+          "wait for results to be fully loaded",
+          "close the search results tab"
+        ],
+        "output after each searhch": [
+          "search_keyword",
+          "ordinality of current search",
+          "total number of searches to perform",
+          "points_earned",
+          "tokens_used"
+        ],
+        "things never do": [
+          "skip the steps due to high number of searches",
+          "navigate to bing.com directly and perform searches there",
+          "perform search too frequently in case of being throttled"
+        ],
+        "backup plan if points breakdown link not found": "open rewards.bing.com/pointsbreakdown"
       },
-      "never do things": [
-        "skip the steps due to high number of searches"
-      ],
       "constraints": {
         "sequential": true,
         "in parallel": false,
-        "reuse browser tab": true,
         "delay between searches in seconds to avoid throttle": "randomly between 5 and 10",
         "execute by generated script": false,
         "execute in batch": false
       },
-      "post-action": {
-        "close all search tabs": true,
-        "return to": "rewards page",
-        "refresh": true
-      },
+      "post actions": [
+        "close all search tabs",
+        "return to rewards page and reload"
+      ],
       "failure_conditions": [
         "search_box_not_found",
         "search_results_failed_to_load",
         "browser_crash",
         "tab_not_created"
-      ],
-      "notes": "All searches must be performed sequentially in the same new tab. The base page from step 0 must remain intact. If any failure occurs, mark the step as failed but do not proceed with undefined behavior."
+      ]
     },
     {
       "id": 3,

@@ -1,0 +1,664 @@
+### New console messages
+- [LOG] There is already and InstrumentationTracker instance associated with this insertRef:CopilotSea...
+
+### Open tabs
+- 0: [Microsoft Rewards] (https://rewards.bing.com/)
+- 1: (current) [music history - Search] (https://www.bing.com/search?q=music%20history&rnoreward=1&skipopalnative=true&form=ML17QA&filters=PollScenarioId:%22POLL_ENUS_RewardsDailyPoll_20251220%22%20BTROID:%22Gamification_DailySet_20251220_Child3%22%20BTROEC:%2210%22%20BTROMC:%2210%22)
+
+### Page state
+- Page URL: https://www.bing.com/search?q=music%20history&rnoreward=1&skipopalnative=true&form=ML17QA&filters=PollScenarioId:%22POLL_ENUS_RewardsDailyPoll_20251220%22%20BTROID:%22Gamification_DailySet_20251220_Child3%22%20BTROEC:%2210%22%20BTROMC:%2210%22
+- Page Title: music history - Search
+- Page Snapshot:
+```yaml
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - button "Skip to content" [ref=e3] [cursor=pointer]:
+      - generic [ref=e5]: Skip to content
+    - generic [ref=e6]:
+      - link "Back to Bing search" [ref=e7] [cursor=pointer]:
+        - /url: /?FORM=Z9FD1
+        - heading "Back to Bing search" [level=1] [ref=e8]
+      - search [ref=e9]:
+        - link "Search button" [ref=e11] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - button "Search" [ref=e13]
+        - searchbox "Enter your search here - Search suggestions will show as you type" [ref=e14]: music history
+        - button "Search using voice" [ref=e22] [cursor=pointer]
+        - button "Search using an image" [ref=e20] [cursor=pointer]
+    - complementary "Account Rewards and Preferences" [ref=e23]:
+      - button "Microsoft Rewards" [ref=e24] [cursor=pointer]:
+        - generic [ref=e26]:
+          - generic [ref=e27]: "1530"
+          - img [ref=e29]
+      - button "jj" [ref=e41] [cursor=pointer]
+      - button "Settings and quick links" [ref=e42] [cursor=pointer]
+    - navigation "Search Filter" [ref=e43]:
+      - list [ref=e44]:
+        - listitem [ref=e45]:
+          - link "All" [ref=e46] [cursor=pointer]:
+            - /url: /?scope=web&FORM=HDRSC1
+        - listitem [ref=e47]:
+          - link "Search" [ref=e48] [cursor=pointer]:
+            - /url: /copilotsearch?q=music+history&FORM=CSSCOP
+            - img [ref=e49]
+            - text: Search
+        - listitem [ref=e51]:
+          - link "Videos" [ref=e52] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=587b51e66a4f0f99d01f50e50e281d786364ebb69a48a0558dbff260a8a7b59fJmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1L3ZpZGVvcy9zZWFyY2g_cT1tdXNpYytoaXN0b3J5JkZPUk09SERSU0M0&ntb=1
+        - listitem [ref=e53]:
+          - link "Images" [ref=e54] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=f0cd405b46fb616e80fe239fe4a013e09319766474b4fca4a260f38e103ea0d1JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1L2ltYWdlcy9zZWFyY2g_cT1tdXNpYytoaXN0b3J5JkZPUk09SERSU0Mz&ntb=1
+        - listitem [ref=e55]:
+          - link "Maps" [ref=e56] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=04c9dba26b690e72d86e85779bed2e5346fb070d3a63a35903cf6f72ca47fe62JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1L21hcHM_cT1tdXNpYytoaXN0b3J5JkZPUk09SERSU0M2&ntb=1
+        - listitem [ref=e57]:
+          - link "News" [ref=e58] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=78a6e6e848e2cff479f4f317876322e49b6c2356bbdb84eb25dd59c3bd5e09feJmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1L25ld3Mvc2VhcmNoP3E9bXVzaWMraGlzdG9yeSZGT1JNPUhEUlNDNw&ntb=1
+        - listitem [ref=e59]:
+          - link "Copilot" [ref=e60] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=d2eee5ab8c45ea1f2f824aa03f86000f8eaf790d8639a0b1087c62e30262aea8JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1L2NoYXQ_cHJvbXB0PW11c2ljK2hpc3Rvcnkmc2VuZHF1ZXJ5PTEmRk9STT1TQ0NPRFg&ntb=1
+        - listitem [ref=e61]:
+          - button "More" [ref=e62] [cursor=pointer]:
+            - img [ref=e64]
+            - text: More
+  - generic [ref=e66]:
+    - main "Search Results" [ref=e67]:
+      - generic [ref=e69]: About 157,000,000 results
+      - list [ref=e77]:
+        - listitem [ref=e78]:
+          - generic [ref=e86]:
+            - generic [ref=e89]:
+              - generic [ref=e90]:
+                - generic [ref=e91]:
+                  - button "Like" [ref=e92]:
+                    - img [ref=e93]
+                  - button "Dislike" [ref=e95]:
+                    - img [ref=e96]
+                - 'tooltip "System.Collections.Generic.List`1[Microsoft.Search.Frontend.AnswerServices.IItem]" [ref=e98]':
+                  - img [ref=e99]
+              - generic [ref=e105]:
+                - link "What do King David and King Tut have in Common? • Spotlight • Ancient Music - YouTube" [ref=e109] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=7fcb8a7378a3dd000296ccd514e7ac2321041ffedca629a54c386e0fcc4f3b17JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1L2ltYWdlcy9zZWFyY2g_cT1tdXNpYytoaXN0b3J5JmlkPTQ5QjEwNzdDNTAyNEI0QTVBMjZDRTE5QUFBM0E4QzNCMUUwNkYyNkU&ntb=1
+                  - img "What do King David and King Tut have in Common? • Spotlight • Ancient Music - YouTube" [ref=e110]
+                - heading "Music history traces the evolution of music from prehistoric times to the present, highlighting its cultural significance and development across various civilizations." [level=2] [ref=e111]:
+                  - generic [ref=e112]: Music history traces the evolution of music from prehistoric times to the present, highlighting its cultural significance and development across various civilizations.
+                - generic [ref=e113]:
+                  - heading "Origins of Music" [level=3] [ref=e114]
+                  - list [ref=e115]:
+                    - listitem [ref=e116]:
+                      - generic [ref=e117]:
+                        - 'link "Prehistoric Music: The origins of music are believed to date back to prehistoric times, with evidence of early instruments like bone flutes dating back over 35,000 years. The human voice was likely the first instrument, used for social bonding and expression." [ref=e118] [cursor=pointer]':
+                          - /url: https://www.bing.com/ck/a?!&&p=88d35576966248f164d0467eb2d8718a7a29ba3fcf0f72b18e115e0e6abe8380JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1aHR0cHM6Ly93d3cubXVzaWNpYW53YXZlLmNvbS9oaXN0b3J5LW9mLW11c2ljLw&ntb=1
+                          - generic [ref=e119]:
+                            - strong [ref=e120]: Prehistoric Music
+                            - text: ": The origins of music are believed to date back to prehistoric times, with evidence of early instruments like bone flutes dating back over 35,000 years. The human voice was likely the first instrument, used for social bonding and expression."
+                        - link "View source at Musician Wave" [ref=e122] [cursor=pointer]:
+                          - /url: https://www.bing.com/ck/a?!&&p=88d35576966248f164d0467eb2d8718a7a29ba3fcf0f72b18e115e0e6abe8380JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1aHR0cHM6Ly93d3cubXVzaWNpYW53YXZlLmNvbS9oaXN0b3J5LW9mLW11c2ljLw&ntb=1
+                          - button "2 citations" [ref=e123]:
+                            - img [ref=e125]
+                            - strong [ref=e128]: "2"
+                    - listitem [ref=e129]:
+                      - generic [ref=e130]:
+                        - 'link "Cultural Universality: Music is a cultural universal, present in every known society, and often intertwined with rituals, ceremonies, and daily life." [ref=e131] [cursor=pointer]':
+                          - /url: https://www.bing.com/ck/a?!&&p=a89f7dfd8996adc75d961c512db00014e83e2562ecdf1d86769716d219771335JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvSGlzdG9yeV9vZl9tdXNpYw&ntb=1
+                          - generic [ref=e132]:
+                            - strong [ref=e133]: Cultural Universality
+                            - text: ": Music is a cultural universal, present in every known society, and often intertwined with rituals, ceremonies, and daily life."
+                        - link "View source at Wikipedia" [ref=e135] [cursor=pointer]:
+                          - /url: https://www.bing.com/ck/a?!&&p=a89f7dfd8996adc75d961c512db00014e83e2562ecdf1d86769716d219771335JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvSGlzdG9yeV9vZl9tdXNpYw&ntb=1
+                          - button "1 citation" [ref=e136]:
+                            - img [ref=e138]
+                            - strong [ref=e141]: "1"
+                    - listitem [ref=e142]:
+                      - generic [ref=e150]:
+                        - img [ref=e152]
+                        - generic [ref=e154]: 3 Sources
+                  - heading "Ancient Music" [level=3] [ref=e155]
+                  - list [ref=e156]:
+                    - listitem [ref=e157]:
+                      - generic [ref=e158]:
+                        - 'link "Early Civilizations: Ancient music emerged in literate civilizations such as Mesopotamia, Egypt, Greece, and India. These cultures developed their own musical systems and instruments, with notable examples including the lyre and various percussion instruments." [ref=e159] [cursor=pointer]':
+                          - /url: https://www.bing.com/ck/a?!&&p=a89f7dfd8996adc75d961c512db00014e83e2562ecdf1d86769716d219771335JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvSGlzdG9yeV9vZl9tdXNpYw&ntb=1
+                          - generic [ref=e160]:
+                            - strong [ref=e161]: Early Civilizations
+                            - text: ": Ancient music emerged in literate civilizations such as Mesopotamia, Egypt, Greece, and India. These cultures developed their own musical systems and instruments, with notable examples including the lyre and various percussion instruments."
+                        - link "View source at Wikipedia" [ref=e163] [cursor=pointer]:
+                          - /url: https://www.bing.com/ck/a?!&&p=a89f7dfd8996adc75d961c512db00014e83e2562ecdf1d86769716d219771335JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvSGlzdG9yeV9vZl9tdXNpYw&ntb=1
+                          - button "2 citations" [ref=e164]:
+                            - img [ref=e166]
+                            - strong [ref=e169]: "2"
+                    - listitem [ref=e170]:
+                      - generic [ref=e171]:
+                        - 'link "Musical Notation: The earliest forms of musical notation appeared in ancient Babylonia around 1400 BCE, with the Greeks developing their own systems by the 6th century BCE. This notation allowed for the preservation and transmission of musical ideas." [ref=e172] [cursor=pointer]':
+                          - /url: https://www.bing.com/ck/a?!&&p=88d35576966248f164d0467eb2d8718a7a29ba3fcf0f72b18e115e0e6abe8380JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1aHR0cHM6Ly93d3cubXVzaWNpYW53YXZlLmNvbS9oaXN0b3J5LW9mLW11c2ljLw&ntb=1
+                          - generic [ref=e173]:
+                            - strong [ref=e174]: Musical Notation
+                            - text: ": The earliest forms of musical notation appeared in ancient Babylonia around 1400 BCE, with the Greeks developing their own systems by the 6th century BCE. This notation allowed for the preservation and transmission of musical ideas."
+                        - link "View source at Musician Wave" [ref=e176] [cursor=pointer]:
+                          - /url: https://www.bing.com/ck/a?!&&p=88d35576966248f164d0467eb2d8718a7a29ba3fcf0f72b18e115e0e6abe8380JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1aHR0cHM6Ly93d3cubXVzaWNpYW53YXZlLmNvbS9oaXN0b3J5LW9mLW11c2ljLw&ntb=1
+                          - button "1 citation" [ref=e177]:
+                            - img [ref=e179]
+                            - strong [ref=e182]: "1"
+                    - listitem [ref=e183]:
+                      - generic [ref=e191]:
+                        - img [ref=e193]
+                        - generic [ref=e195]: 3 Sources
+                  - heading "Medieval to Renaissance Music" [level=3] [ref=e196]
+                  - list [ref=e197]:
+                    - listitem [ref=e198]:
+                      - generic [ref=e199]:
+                        - 'link "Gregorian Chant: During the Middle Ages, music became more structured, with the development of Gregorian chant, which was integral to Christian worship." [ref=e200] [cursor=pointer]':
+                          - /url: https://www.bing.com/ck/a?!&&p=88d35576966248f164d0467eb2d8718a7a29ba3fcf0f72b18e115e0e6abe8380JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1aHR0cHM6Ly93d3cubXVzaWNpYW53YXZlLmNvbS9oaXN0b3J5LW9mLW11c2ljLw&ntb=1
+                          - generic [ref=e201]:
+                            - strong [ref=e202]: Gregorian Chant
+                            - text: ": During the Middle Ages, music became more structured, with the development of Gregorian chant, which was integral to Christian worship."
+                        - link "View source at Musician Wave" [ref=e204] [cursor=pointer]:
+                          - /url: https://www.bing.com/ck/a?!&&p=88d35576966248f164d0467eb2d8718a7a29ba3fcf0f72b18e115e0e6abe8380JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1aHR0cHM6Ly93d3cubXVzaWNpYW53YXZlLmNvbS9oaXN0b3J5LW9mLW11c2ljLw&ntb=1
+                          - button "1 citation" [ref=e205]:
+                            - img [ref=e207]
+                            - strong [ref=e210]: "1"
+                    - listitem [ref=e211]:
+                      - generic [ref=e212]:
+                        - 'link "Renaissance Innovations: The Renaissance period saw the rise of polyphony and the use of musical notation, leading to the works of composers like Josquin des Prez and Palestrina." [ref=e213] [cursor=pointer]':
+                          - /url: https://www.bing.com/ck/a?!&&p=38a80b721372311634af7922b149f1f27f3966f723e48c0c08189c2d87c7eed3JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1aHR0cHM6Ly93d3cuY211c2Uub3JnL2hpc3Rvcnktb2YtbXVzaWMv&ntb=1
+                          - generic [ref=e214]:
+                            - strong [ref=e215]: Renaissance Innovations
+                            - text: ": The Renaissance period saw the rise of polyphony and the use of musical notation, leading to the works of composers like Josquin des Prez and Palestrina."
+                        - link "View source at CMUSE" [ref=e217] [cursor=pointer]:
+                          - /url: https://www.bing.com/ck/a?!&&p=38a80b721372311634af7922b149f1f27f3966f723e48c0c08189c2d87c7eed3JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1aHR0cHM6Ly93d3cuY211c2Uub3JnL2hpc3Rvcnktb2YtbXVzaWMv&ntb=1
+                          - button "1 citation" [ref=e218]:
+                            - img [ref=e220]
+                            - strong [ref=e223]: "1"
+                    - listitem [ref=e224]:
+                      - generic [ref=e232]:
+                        - img [ref=e234]
+                        - generic [ref=e236]: 2 Sources
+                  - heading "Modern Music" [level=3] [ref=e237]
+                  - list [ref=e238]:
+                    - listitem [ref=e239]:
+                      - generic [ref=e240]:
+                        - 'link "Baroque to Classical: The Baroque period introduced complex compositions and the emergence of opera, while the Classical period brought forth composers like Mozart and Beethoven, who expanded musical forms and expressions." [ref=e241] [cursor=pointer]':
+                          - /url: https://www.bing.com/ck/a?!&&p=88d35576966248f164d0467eb2d8718a7a29ba3fcf0f72b18e115e0e6abe8380JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1aHR0cHM6Ly93d3cubXVzaWNpYW53YXZlLmNvbS9oaXN0b3J5LW9mLW11c2ljLw&ntb=1
+                          - generic [ref=e242]:
+                            - strong [ref=e243]: Baroque to Classical
+                            - text: ": The Baroque period introduced complex compositions and the emergence of opera, while the Classical period brought forth composers like Mozart and Beethoven, who expanded musical forms and expressions."
+                        - link "View source at Musician Wave" [ref=e245] [cursor=pointer]:
+                          - /url: https://www.bing.com/ck/a?!&&p=88d35576966248f164d0467eb2d8718a7a29ba3fcf0f72b18e115e0e6abe8380JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1aHR0cHM6Ly93d3cubXVzaWNpYW53YXZlLmNvbS9oaXN0b3J5LW9mLW11c2ljLw&ntb=1
+                          - button "2 citations" [ref=e246]:
+                            - img [ref=e248]
+                            - strong [ref=e251]: "2"
+                    - listitem [ref=e252]:
+                      - generic [ref=e253]:
+                        - 'link "20th Century and Beyond: The 20th century witnessed the birth of various genres, including jazz, rock, and electronic music, reflecting cultural shifts and technological advancements. Music became a global phenomenon, influenced by diverse styles and traditions." [ref=e254] [cursor=pointer]':
+                          - /url: https://www.bing.com/ck/a?!&&p=1bc29af0f54611f89c54e097a8492c2495c66a453a541d6e334dcebf78742389JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1aHR0cHM6Ly93d3cuYnJpdGFubmljYS5jb20vYXJ0L211c2lj&ntb=1
+                          - generic [ref=e255]:
+                            - strong [ref=e256]: 20th Century and Beyond
+                            - text: ": The 20th century witnessed the birth of various genres, including jazz, rock, and electronic music, reflecting cultural shifts and technological advancements. Music became a global phenomenon, influenced by diverse styles and traditions."
+                        - link "View source at Britannica" [ref=e258] [cursor=pointer]:
+                          - /url: https://www.bing.com/ck/a?!&&p=1bc29af0f54611f89c54e097a8492c2495c66a453a541d6e334dcebf78742389JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1aHR0cHM6Ly93d3cuYnJpdGFubmljYS5jb20vYXJ0L211c2lj&ntb=1
+                          - button "2 citations" [ref=e259]:
+                            - img [ref=e261]
+                            - strong [ref=e264]: "2"
+                    - listitem [ref=e265]:
+                      - generic [ref=e273]:
+                        - img [ref=e275]
+                        - generic [ref=e277]: 3 Sources
+                  - heading "Conclusion" [level=3] [ref=e278]
+                  - generic [ref=e279]: Music history is a rich tapestry that reflects human creativity and cultural evolution. From its primitive origins to the complex genres of today, music continues to play a vital role in society, influencing emotions, traditions, and social interactions across the globe. For a deeper exploration, resources like Wikipedia, Britannica, and specialized music history sites provide extensive information on specific periods and styles.
+                - button "Read more" [ref=e281] [cursor=pointer]:
+                  - generic [ref=e282]: Read more
+                  - img [ref=e283]
+              - generic [ref=e286]:
+                - link "Musician Wave A Brief History of Music – From Origins to the Present Day How did music develop throughout the centuries and around the globe? What do different cultures and generations have in common, in terms of music? What can we learn from all the di…" [ref=e288] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=88d35576966248f164d0467eb2d8718a7a29ba3fcf0f72b18e115e0e6abe8380JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1aHR0cHM6Ly93d3cubXVzaWNpYW53YXZlLmNvbS9oaXN0b3J5LW9mLW11c2ljLw&ntb=1
+                  - generic [ref=e289]:
+                    - generic [ref=e292]: Musician Wave
+                    - generic [ref=e294]: A Brief History of Music – From Origins to the Present Day
+                    - generic [ref=e295]: How did music develop throughout the centuries and around the globe? What do different cultures and generations have in common, in terms of music? What can we learn from all the di…
+                - 'link "CMUSE Brief History of Music: An Introduction - CMUSE Learn how music evolved from ancient times to the Baroque period, with examples of influential composers and styles. Explore the role of music in sacred and secular settings, and t…" [ref=e297] [cursor=pointer]':
+                  - /url: https://www.bing.com/ck/a?!&&p=38a80b721372311634af7922b149f1f27f3966f723e48c0c08189c2d87c7eed3JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1aHR0cHM6Ly93d3cuY211c2Uub3JnL2hpc3Rvcnktb2YtbXVzaWMv&ntb=1
+                  - generic [ref=e298]:
+                    - generic [ref=e301]: CMUSE
+                    - generic [ref=e303]: "Brief History of Music: An Introduction - CMUSE"
+                    - generic [ref=e304]: Learn how music evolved from ancient times to the Baroque period, with examples of influential composers and styles. Explore the role of music in sacred and secular settings, and t…
+                - generic [ref=e305]:
+                  - generic [ref=e306]:
+                    - link "Wikipedia" [ref=e307] [cursor=pointer]:
+                      - /url: https://www.bing.com/ck/a?!&&p=a89f7dfd8996adc75d961c512db00014e83e2562ecdf1d86769716d219771335JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvSGlzdG9yeV9vZl9tdXNpYw&ntb=1
+                    - link "Britannica" [ref=e310] [cursor=pointer]:
+                      - /url: https://www.bing.com/ck/a?!&&p=1bc29af0f54611f89c54e097a8492c2495c66a453a541d6e334dcebf78742389JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1aHR0cHM6Ly93d3cuYnJpdGFubmljYS5jb20vYXJ0L211c2lj&ntb=1
+                  - button "View all" [ref=e313]:
+                    - generic "View all" [ref=e314]
+            - status
+        - listitem [ref=e315]:
+          - link "Wikipedia" [ref=e317] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=a89f7dfd8996adc75d961c512db00014e83e2562ecdf1d86769716d219771335JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvSGlzdG9yeV9vZl9tdXNpYw&ntb=1
+            - img "Global web icon" [ref=e321]
+            - generic [ref=e322]:
+              - generic [ref=e323]: Wikipedia
+              - generic [ref=e326]: https://en.wikipedia.org › wiki › History_of_music
+          - heading "History of music - Wikipedia" [level=2] [ref=e327]:
+            - link "History of music - Wikipedia" [ref=e328] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=a89f7dfd8996adc75d961c512db00014e83e2562ecdf1d86769716d219771335JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvSGlzdG9yeV9vZl9tdXNpYw&ntb=1
+          - generic [ref=e329]:
+            - link "Most cultures have their own mythical origins concerning the invention of music, generally rooted in their respective mythological, religious or philosophical beliefs." [ref=e330] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=0b7c6d1597399e624f7a75bf8fb3c9b25a6e1ab3b6cdd900769f9a288dafb1a4JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvSGlzdG9yeV9vZl9tdXNpYyNIZXJvU2VjdGlvbg&ntb=1
+              - text: Most cultures have their own mythical origins concerning the invention of
+              - strong [ref=e331]: music
+              - text: ", generally rooted in their respective mythological, religious or philosophical beliefs."
+            - generic [ref=e332]:
+              - generic [ref=e334]:
+                - link "Overview" [ref=e335] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=03b80503bd8aa2d40ff5c16c039f372c755852f2f728d14f7442763925604193JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvSGlzdG9yeV9vZl9tdXNpYyNPdmVydmlldw&ntb=1
+                - generic [ref=e337]:
+                  - generic [ref=e338]:
+                    - heading "Overview" [level=2] [ref=e339]
+                    - img [ref=e342]
+                  - paragraph [ref=e344]: Although definitions of music vary wildly throughout the world, every known culture partakes in it, and it is thus considered a cultural universal. The origins of music remain highly contentious; commentators often relate it to the origin of language, …
+              - link "View details" [ref=e349] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=0b7c6d1597399e624f7a75bf8fb3c9b25a6e1ab3b6cdd900769f9a288dafb1a4JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvSGlzdG9yeV9vZl9tdXNpYyNIZXJvU2VjdGlvbg&ntb=1
+              - generic [ref=e351]:
+                - link "View details" [ref=e354] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=9319aa710dc8acab5ae6cf2ba412fbe76e9610c443799f25e063daa49b356b6eJmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvSGlzdG9yeV9vZl9tdXNpYyNBbnRpcXVpdHk&ntb=1
+                - link "View details" [ref=e357] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=89e926067594a1f7dadcab1faf6452a92805e4767cabf6a405d417519d947eb6JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvSGlzdG9yeV9vZl9tdXNpYyNQcmVoaXN0b3J5&ntb=1
+                - link "View details" [ref=e360] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=cf21ed409226e7e9296c202f6a541dc8acd3bf8b8d400b64feea662e1ad49583JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvSGlzdG9yeV9vZl9tdXNpYyNQb3N0LWNsYXNzaWNhbF9lcmE&ntb=1
+              - generic [ref=e362]:
+                - link "Origins" [ref=e363] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=7f4b1382ff8e41b73c2bc23174172263fac12fda8b776ac3032024623e5ab070JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvSGlzdG9yeV9vZl9tdXNpYyNPcmlnaW5z&ntb=1
+                - generic [ref=e365]:
+                  - generic [ref=e366]:
+                    - heading "Origins" [level=2] [ref=e367]
+                    - img [ref=e370]
+                  - paragraph [ref=e372]: Music is regarded as a cultural universal, though definitions of it vary depending on culture and throughout history. As with many aspects of human cognition, it remains debated as to what extent the origins of music will ever be understood, …
+          - generic "Wikipedia text under CC-BY-SA license" [ref=e375]:
+            - text: Wikipedia text under
+            - link "CC-BY-SA license" [ref=e376] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=56f029b638d35746d132335a6a5b4435bb7f464d935b6da9e35e5cb5975eef01JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1aHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbGljZW5zZXMvYnktc2EvMy4wLw&ntb=1
+        - listitem [ref=e377]:
+          - generic [ref=e378]:
+            - link "Explore this image" [ref=e381] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=Hh8K7IBs&id=C260D81D69B41F0275EB78A4FB0F3951BA098F12&thid=OIP.Hh8K7IBsSi3ARNDVkEwnCwHaEK&mediaurl=https://cdn.britannica.com/72/240872-138-3D434C6C/Bobby-McFerrin-Demonstrates-the-Power-of-the-Pentatonic-Scale.jpg&q=music+history&ck=F3DADE78215DE0975665E63222E1921E&idpp=rc&expw=640&exph=360&form=rc2idp
+              - img [ref=e382]
+            - generic [ref=e383]:
+              - link "Britannica" [ref=e385] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=1bc29af0f54611f89c54e097a8492c2495c66a453a541d6e334dcebf78742389JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1aHR0cHM6Ly93d3cuYnJpdGFubmljYS5jb20vYXJ0L211c2lj&ntb=1
+                - img "Global web icon" [ref=e389]
+                - generic [ref=e390]:
+                  - generic [ref=e391]: Britannica
+                  - generic [ref=e394]: https://www.britannica.com › art › music
+              - heading "Music | Art Form, Styles, Rhythm, & History" [level=2] [ref=e395]:
+                - link "Music | Art Form, Styles, Rhythm, & History" [ref=e396] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=1bc29af0f54611f89c54e097a8492c2495c66a453a541d6e334dcebf78742389JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1aHR0cHM6Ly93d3cuYnJpdGFubmljYS5jb20vYXJ0L211c2lj&ntb=1
+              - paragraph [ref=e397]: Nov 25, 2025 · Music, art concerned with combining vocal or instrumental sounds for beauty of form or emotional expression, usually according to …
+              - generic [ref=e399]:
+                - list [ref=e400]:
+                  - listitem [ref=e401]:
+                    - 'link "Author: Gordon Epperson" [ref=e403] [cursor=pointer]':
+                      - /url: https://www.bing.com/ck/a?!&&p=dd1e97922cba7ceca5686f09e108c97c38899d84d0f8daf16e8c5e696c2054f2JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1L3NlYXJjaD9xPUdvcmRvbitFcHBlcnNvbiZGT1JNPUZBQ1RSRQ&ntb=1
+                      - strong [ref=e404]: "Author:"
+                      - text: Gordon Epperson
+                - list
+        - listitem [ref=e406]:
+          - generic [ref=e408]:
+            - heading "Videos of Music History" [level=2] [ref=e410]:
+              - link "Videos of Music History" [ref=e411] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=a19af01a2cffc54f56e7024dae2c31c80de8787dbb825e822625390e74f03359JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1L3ZpZGVvcy9zZWFyY2g_cT1tdXNpYytoaXN0b3J5JnFwdnQ9bXVzaWMraGlzdG9yeSZGT1JNPVZEUkU&ntb=1
+            - 'link "Evolution of Music (2100 BC-2023 AD) from YouTube · Duration: 23 minutes 33 seconds · 13.3M views · uploaded on Mar 22, 2023 · uploaded by L17 · Click to play. · Timestamps: Ancient Music (00:00) Medieval Music (02:56) Renaissance Music (05:29) Baroque Music (07:24) Classical Music (09:10) Romantic Music (10:37) Modernism/Popular Music (12:56) Notes: • ‌Some years might be inaccurate. •‌ Only 1 song per artist/composer and only 1 song per year to keep the video shorter. Sorry if I didn''t pick ..." [ref=e414] [cursor=pointer]':
+              - /url: https://www.bing.com/ck/a?!&&p=e5d6276dab37feda3ba973b1d4939d0f8c9de52244bfb5d6ed66e1cc0fbaf51cJmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1L3ZpZGVvcy9zZWFyY2g_cT1tdXNpYytoaXN0b3J5JnZpZXc9ZGV0YWlsJm1pZD1EOUFCMjI0RDA2MzMxMzMzQkVCQkQ5QUIyMjREMDYzMzEzMzNCRUJCJkZPUk09VklSRQ&ntb=1
+              - generic [ref=e415]:
+                - generic [ref=e416]:
+                  - img "Evolution of Music (2100 BC-2023 AD)" [ref=e418]
+                  - generic [ref=e424]: 23:33
+                - generic [ref=e427]:
+                  - generic "Evolution of Music (2100 BC-2023 AD)" [ref=e428]:
+                    - text: Evolution of
+                    - strong [ref=e429]: Music
+                    - text: (2100 BC-2023 AD)
+                  - generic [ref=e431]:
+                    - generic [ref=e432]:
+                      - img "Video source site" [ref=e433]
+                      - text: YouTube · L17
+                    - generic [ref=e434]: 13.3M views · Mar 22, 2023
+            - generic [ref=e436]:
+              - 'link "40,000 years of music explained in 8 minutes | Michael Spitzer from YouTube · Duration: 8 minutes 40 seconds · 1.1M views · uploaded on Jul 29, 2022 · uploaded by Big Think · Click to play. · The history of music from bone flutes to Beyoncé. Subscribe to Big Think on YouTube https://www.youtube.com/c/bigthink Up Next The science of music: why your brain gets hooked on hit songs https://youtu.be/gwmijEZ5sbM The evolution of music over millennia is tied to human civilization. For example, hunter-gatherers, who were very mobile, had ..." [ref=e439] [cursor=pointer]':
+                - /url: https://www.bing.com/ck/a?!&&p=cfa956b37d0814da7f0e1d1f279fbfb6dd8ad9ea096d108916143cafebd00934JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1L3ZpZGVvcy9zZWFyY2g_cT1tdXNpYytoaXN0b3J5JnZpZXc9ZGV0YWlsJm1pZD03RDExRTA5RDVBRENBQkJDQTZDNjdEMTFFMDlENUFEQ0FCQkNBNkM2JkZPUk09VklSRQ&ntb=1
+                - generic [ref=e440]:
+                  - generic [ref=e441]:
+                    - img "40,000 years of music explained in 8 minutes | Michael Spitzer" [ref=e443]
+                    - generic [ref=e449]: 8:40
+                  - generic [ref=e450]:
+                    - generic "40,000 years of music explained in 8 minutes | Michael Spitzer" [ref=e451]:
+                      - text: 40,000 years of
+                      - strong [ref=e452]: music
+                      - text: explained in 8 minutes | Michael Spitzer
+                    - generic [ref=e453]:
+                      - generic [ref=e454]:
+                        - img "Video source site" [ref=e455]
+                        - text: YouTube · Big Think
+                      - generic [ref=e456]: 1.1M views · Jul 29, 2022
+              - 'link "Evolution Of Music (40000 BC - 2021) from YouTube · Duration: 18 minutes 56 seconds · 1.9M views · uploaded on Nov 21, 2021 · uploaded by William Halfmann HD · Click to play. · The History of Music from 40000 BC to 2021, from the oldest music instrument to the modern pop music everyone else listens to. A little mistake I did on 1959, I put “hands” when it was actually “head”. This is a video I made back in 2019 which got removed in the beginning of 2020 due to community guideline because an image on 400 BC, I ..." [ref=e459] [cursor=pointer]':
+                - /url: https://www.bing.com/ck/a?!&&p=5928a3b91d96fc7d30ce8a5e805812f3b5375ba0648c456c162e4f4c5da538acJmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1L3ZpZGVvcy9zZWFyY2g_cT1tdXNpYytoaXN0b3J5JnZpZXc9ZGV0YWlsJm1pZD05MDNGNUY1RUIxODk1QjEzQjFCRjkwM0Y1RjVFQjE4OTVCMTNCMUJGJkZPUk09VklSRQ&ntb=1
+                - generic [ref=e460]:
+                  - generic [ref=e461]:
+                    - img "Evolution Of Music (40000 BC - 2021)" [ref=e463]
+                    - generic [ref=e469]: 18:56
+                  - generic [ref=e470]:
+                    - generic "Evolution Of Music (40000 BC - 2021)" [ref=e471]:
+                      - text: Evolution Of
+                      - strong [ref=e472]: Music
+                      - text: (40000 BC - 2021)
+                    - generic [ref=e473]:
+                      - generic [ref=e474]:
+                        - img "Video source site" [ref=e475]
+                        - text: YouTube · William Halfmann HD
+                      - generic [ref=e476]: 1.9M views · Nov 21, 2021
+              - 'link "Brief History of Music (An Introduction) from YouTube · Duration: 10 minutes 28 seconds · 5.4K views · uploaded on Oct 29, 2022 · uploaded by CMUSE - Music News and Entertainment · Click to play. · Read full article here: https://www.cmuse.org/history-of-music/ In all probability, music has played an important role in the lifecycle of humans perhaps even before we could speak. Significant evidence has been discovered that very early man developed primitive flutes from animal bones and used stones and wood as percussion. Voice would have ..." [ref=e479] [cursor=pointer]':
+                - /url: https://www.bing.com/ck/a?!&&p=7d01e566ea87cda6bdd4ee29d306ab8cb2e7ad233fca4c6b8a648fffbf07ff45JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1L3ZpZGVvcy9zZWFyY2g_cT1tdXNpYytoaXN0b3J5JnZpZXc9ZGV0YWlsJm1pZD00RUYwREY0MzkzM0JDMEFBOTlDQzRFRjBERjQzOTMzQkMwQUE5OUNDJkZPUk09VklSRQ&ntb=1
+                - generic [ref=e480]:
+                  - generic [ref=e481]:
+                    - img "Brief History of Music (An Introduction)" [ref=e483]
+                    - generic [ref=e489]: 10:28
+                  - generic [ref=e490]:
+                    - generic "Brief History of Music (An Introduction)" [ref=e491]:
+                      - text: Brief
+                      - strong [ref=e492]: History
+                      - text: of
+                      - strong [ref=e493]: Music
+                      - text: (An Introduction)
+                    - generic [ref=e494]:
+                      - generic [ref=e495]:
+                        - img "Video source site" [ref=e496]
+                        - text: YouTube · CMUSE - Music News and Entertainment
+                      - generic [ref=e497]: 5.4K views · Oct 29, 2022
+        - listitem [ref=e498]:
+          - link "CMUSE" [ref=e500] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=38a80b721372311634af7922b149f1f27f3966f723e48c0c08189c2d87c7eed3JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1aHR0cHM6Ly93d3cuY211c2Uub3JnL2hpc3Rvcnktb2YtbXVzaWMv&ntb=1
+            - img "Global web icon" [ref=e504]
+            - generic [ref=e505]:
+              - generic [ref=e506]: CMUSE
+              - generic [ref=e509]: https://www.cmuse.org › history-of-music
+          - 'heading "Brief History of Music: An Introduction - CMUSE" [level=2] [ref=e510]':
+            - 'link "Brief History of Music: An Introduction - CMUSE"':
+              - /url: https://www.bing.com/ck/a?!&&p=38a80b721372311634af7922b149f1f27f3966f723e48c0c08189c2d87c7eed3JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1aHR0cHM6Ly93d3cuY211c2Uub3JnL2hpc3Rvcnktb2YtbXVzaWMv&ntb=1
+          - list [ref=e514]:
+            - listitem [ref=e515]:
+              - generic [ref=e516]:
+                - list [ref=e518]:
+                  - listitem [ref=e519]:
+                    - generic [ref=e520]: Medieval Period. As we move forward in musical time, we begin to enter the Medieval …
+                  - listitem [ref=e521]:
+                    - generic [ref=e522]: Renaissance Period. Instruments developed in accordance with the composer’s …
+                  - listitem [ref=e523]:
+                    - generic [ref=e524]: Baroque Period. The Baroque Period (1600-1760), houses some of the most famous …
+                  - listitem [ref=e525]:
+                    - generic [ref=e526]: Classical Period. From the Baroque, we step into the Classical Period (1730-1820). Here …
+                - link "See full list on cmuse.org" [ref=e528] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=38a80b721372311634af7922b149f1f27f3966f723e48c0c08189c2d87c7eed3JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1aHR0cHM6Ly93d3cuY211c2Uub3JnL2hpc3Rvcnktb2YtbXVzaWMv&ntb=1
+        - listitem [ref=e529]:
+          - generic [ref=e530]:
+            - link "Explore this image" [ref=e533] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=en6klW60&id=84787A95CAB85367D75A7C7827024BFFD8333A69&thid=OIP.en6klW60Fwa6jDeSZHhSjQHaE7&mediaurl=https://www.musicianwave.com/wp-content/uploads/2020/06/history-of-music.jpg&q=music+history&ck=822032441E1EADC1445055B3615AFFA5&idpp=rc&expw=1280&exph=853&form=rc2idp
+              - img [ref=e534]
+            - generic [ref=e535]:
+              - link "Musician Wave" [ref=e537] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=88d35576966248f164d0467eb2d8718a7a29ba3fcf0f72b18e115e0e6abe8380JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1aHR0cHM6Ly93d3cubXVzaWNpYW53YXZlLmNvbS9oaXN0b3J5LW9mLW11c2ljLw&ntb=1
+                - img "Global web icon" [ref=e541]
+                - generic [ref=e542]:
+                  - generic [ref=e543]: Musician Wave
+                  - generic [ref=e546]: https://www.musicianwave.com › history-of-music
+              - heading "A Brief History of Music – From Origins to the …" [level=2] [ref=e547]:
+                - link "A Brief History of Music – From Origins to the …" [ref=e548] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=88d35576966248f164d0467eb2d8718a7a29ba3fcf0f72b18e115e0e6abe8380JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1aHR0cHM6Ly93d3cubXVzaWNpYW53YXZlLmNvbS9oaXN0b3J5LW9mLW11c2ljLw&ntb=1
+              - paragraph [ref=e549]: Aug 29, 2023 · This short summary of the history and evolution of music leaves many questions still unanswered. After all, we would need to write a series of books on the topics to be as complete as possible!
+        - listitem [ref=e551]:
+          - generic [ref=e552]:
+            - link "Explore this image" [ref=e555] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=mK4TKm6i&id=0556482E86D88CC3E2A59B113DB1D6D78692EC9C&thid=OIP.mK4TKm6iGNDDPuVR4ugNKgHaHa&mediaurl=https://www.loc.gov/static/collections/moldenhauer-archives/500_500.jpg&q=music+history&ck=9D202F15B5220A9C8D11AABAA5290A21&idpp=rc&expw=500&exph=500&form=rc2idp
+              - img [ref=e556]
+            - generic [ref=e557]:
+              - link "Library of Congress" [ref=e559] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=2b7ef0aac9bb71c8d4129fb07c3c798a40a28f35ac096b4d01c6f1e26423076fJmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1aHR0cHM6Ly93d3cubG9jLmdvdi9jb2xsZWN0aW9ucy9tb2xkZW5oYXVlci1hcmNoaXZlcy9hcnRpY2xlcy1hbmQtZXNzYXlzL2d1aWRlLXRvLWFyY2hpdmVzL211c2ljLWhpc3Rvcnkv&ntb=1
+                - img "Global web icon" [ref=e563]
+                - generic [ref=e564]:
+                  - generic [ref=e565]: Library of Congress
+                  - generic [ref=e568]: https://www.loc.gov › ... › music-history
+              - heading "Music History from Primary Sources - Library of …" [level=2] [ref=e569]:
+                - link "Music History from Primary Sources - Library of …" [ref=e570] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=2b7ef0aac9bb71c8d4129fb07c3c798a40a28f35ac096b4d01c6f1e26423076fJmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1aHR0cHM6Ly93d3cubG9jLmdvdi9jb2xsZWN0aW9ucy9tb2xkZW5oYXVlci1hcmNoaXZlcy9hcnRpY2xlcy1hbmQtZXNzYXlzL2d1aWRlLXRvLWFyY2hpdmVzL211c2ljLWhpc3Rvcnkv&ntb=1
+              - paragraph [ref=e571]: Oral tradition has played a fundamental role in all ages, but in its formal sense, history--and the history of music--begins with the visual record. Musical notation, having emerged on a wide scale in all civilizations, …
+        - listitem [ref=e573]:
+          - generic [ref=e574]:
+            - link "Explore this image" [ref=e577] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=JA8aapne&id=F9AAA974BFD9C949BDEAF2DFA844D0E6D6496C5A&thid=OIP.JA8aapneikp-VWdlcFoaxgAAAA&mediaurl=https://2529ca03c362596a99f571d718dddd6a.cdn.bubble.io/cdn-cgi/image/w=,h=,f=auto,dpr=1,fit=contain/f1707301890189x242248541828349300/Blue Travel Offers %26 Deals Website.png&q=music+history&ck=C3BE240FE92FB0E5FE9DB6F98AD4A3C2&idpp=rc&expw=384&exph=362&form=rc2idp
+              - img [ref=e578]
+            - generic [ref=e579]:
+              - link "historytimelines.co" [ref=e581] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=f34cd51cfcb3ecf907e996f20f83590345ccb341d16d02f405811e580c7a2362JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1aHR0cHM6Ly9oaXN0b3J5dGltZWxpbmVzLmNvL3RpbWVsaW5lL211c2lj&ntb=1
+                - img "Global web icon" [ref=e585]
+                - generic [ref=e586]:
+                  - generic [ref=e587]: historytimelines.co
+                  - generic [ref=e590]: https://historytimelines.co › timeline › music
+              - heading "Music | History Timeline" [level=2] [ref=e591]:
+                - link "Music | History Timeline" [ref=e592] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=f34cd51cfcb3ecf907e996f20f83590345ccb341d16d02f405811e580c7a2362JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1aHR0cHM6Ly9oaXN0b3J5dGltZWxpbmVzLmNvL3RpbWVsaW5lL211c2lj&ntb=1
+              - paragraph [ref=e593]: A History Timeline About Music. From the prehistoric era to the present day, music has evolved and adapted to the changing times and...
+        - listitem [ref=e595]:
+          - generic [ref=e596]:
+            - generic [ref=e597]:
+              - heading "People also ask" [level=2] [ref=e598]:
+                - generic [ref=e599]: People also ask
+              - list [ref=e602]:
+                - listitem [ref=e603]:
+                  - heading "When did prehistoric music start?" [level=3] [ref=e604]:
+                    - button "When did prehistoric music start?" [ref=e605] [cursor=pointer]:
+                      - generic [ref=e606]: When did prehistoric music start?
+                      - generic:
+                        - img
+                - listitem [ref=e607]:
+                  - heading "When did music start?" [level=3] [ref=e608]:
+                    - button "When did music start?" [ref=e609] [cursor=pointer]:
+                      - generic [ref=e610]: When did music start?
+                      - generic:
+                        - img
+                - listitem [ref=e611]:
+                  - heading "What is the history of music like?" [level=3] [ref=e612]:
+                    - button "What is the history of music like?" [ref=e613] [cursor=pointer]:
+                      - generic [ref=e614]: What is the history of music like?
+                      - generic:
+                        - img
+                - listitem [ref=e615]:
+                  - heading "How did music begin?" [level=3] [ref=e616]:
+                    - button "How did music begin?" [ref=e617] [cursor=pointer]:
+                      - generic [ref=e618]: How did music begin?
+                      - generic:
+                        - img
+            - button "Feedback" [ref=e621] [cursor=pointer]
+        - listitem [ref=e622]:
+          - generic [ref=e623]:
+            - link "Explore this image" [ref=e626] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=WP/QXD+R&id=FCC4558BA1BF50563D07C40E2FE1AAA539E136E7&thid=OIP.WP_QXD-Rkh0KjjXTG3naSAHaEK&mediaurl=https://www.mi.edu/wp-content/uploads/2023/09/Musics-Historical-Influence-From-Ancient-Greece-to-Modern-Times.png&q=music+history&ck=F6DDBA33B0399CFBED1D659B7B348A5C&idpp=rc&expw=1600&exph=900&form=rc2idp
+              - img [ref=e627]
+            - generic [ref=e628]:
+              - link "Musicians Institute" [ref=e630] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=8685fd884327e5e410fe1ac13b82552a203aca4ed748d1c8c478511fe102c55fJmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1aHR0cHM6Ly93d3cubWkuZWR1L2luLXRoZS1rbm93L211c2ljcy1oaXN0b3JpY2FsLWluZmx1ZW5jZS1hbmNpZW50LWdyZWVjZS1tb2Rlcm4tdGltZXMv&ntb=1
+                - img "Global web icon" [ref=e634]
+                - generic [ref=e635]:
+                  - generic [ref=e636]: Musicians Institute
+                  - generic [ref=e638]:
+                    - generic [ref=e639]: https://www.mi.edu › in-the-know › musics-histori…
+                    - button "Actions for this site" [ref=e640]
+              - 'heading "Music''s Historical Influence Over Time: Ancient …" [level=2] [ref=e643]':
+                - 'link "Music''s Historical Influence Over Time: Ancient …" [ref=e644] [cursor=pointer]':
+                  - /url: https://www.bing.com/ck/a?!&&p=8685fd884327e5e410fe1ac13b82552a203aca4ed748d1c8c478511fe102c55fJmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1aHR0cHM6Ly93d3cubWkuZWR1L2luLXRoZS1rbm93L211c2ljcy1oaXN0b3JpY2FsLWluZmx1ZW5jZS1hbmNpZW50LWdyZWVjZS1tb2Rlcm4tdGltZXMv&ntb=1
+              - paragraph [ref=e645]: Oct 25, 2023 · Learn how music has played a role in human history since the earliest civilizations. Explore the musical styles and genres of different periods, and the impact of music on historical events.
+        - listitem [ref=e647]:
+          - generic [ref=e648]:
+            - link "Explore this image" [ref=e651] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=WfvOreLt&id=C934845B8C82579FAB0D27FE838E254828A3AF03&thid=OIP.WfvOreLtoXsL1cPedjeikQHaDt&mediaurl=https://recording-history.org/wp-content/uploads/2024/01/history-of-takamine-guitars-768x384.jpg&q=music+history&ck=3A193AED1FE1CDD0843E1CF5050F2147&idpp=rc&expw=768&exph=384&form=rc2idp
+              - img [ref=e652]
+            - generic [ref=e653]:
+              - link "Recording History" [ref=e655] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=b87ec317bc00925dd1a4b8569ae3d240923932ed36516e1be362c0d6f94d0addJmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1aHR0cHM6Ly9yZWNvcmRpbmctaGlzdG9yeS5vcmcvaGlzdG9yeS1vZi1tdXNpYy8&ntb=1
+                - img "Global web icon" [ref=e659]
+                - generic [ref=e660]:
+                  - generic [ref=e661]: Recording History
+                  - generic [ref=e664]: https://recording-history.org › history-of-music
+              - heading "A Comprehensive History of Music" [level=2] [ref=e665]:
+                - link "A Comprehensive History of Music" [ref=e666] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=b87ec317bc00925dd1a4b8569ae3d240923932ed36516e1be362c0d6f94d0addJmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1aHR0cHM6Ly9yZWNvcmRpbmctaGlzdG9yeS5vcmcvaGlzdG9yeS1vZi1tdXNpYy8&ntb=1
+              - paragraph [ref=e667]: The purpose of this article is to trace the history of music, exploring its evolution through different periods, cultures, and styles.
+        - listitem [ref=e669]:
+          - generic [ref=e670]:
+            - link "Explore this image" [ref=e673] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=0IJuwMgI&id=6EEE3E646A35397CA17F193BF3B38BD3F061A7C6&thid=OIP.0IJuwMgIFD0ZSSNmaM1qZQAAAA&mediaurl=https://pcf.cdns.space/prod/popularization/thumbnail/03ff0916-9bda-4bb8-9941-99dc4322864f.jpg&q=music+history&ck=F9EE49F34AACAF1C9595B563719911D5&idpp=rc&expw=195&exph=259&form=rc2idp
+              - img [ref=e674]
+            - generic [ref=e675]:
+              - link "musichistoryarchive.com" [ref=e677] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=fea1747aabba9b03fef438566d5cba85b4c8303a43716fbc3cc915a3ec16ec73JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1aHR0cDovL211c2ljaGlzdG9yeWFyY2hpdmUuY29tLw&ntb=1
+                - img "Global web icon" [ref=e681]
+                - generic [ref=e682]:
+                  - generic [ref=e683]: musichistoryarchive.com
+                  - generic [ref=e686]: http://musichistoryarchive.com
+              - heading "Music History Archive | A Journey Through the …" [level=2] [ref=e687]:
+                - link "Music History Archive | A Journey Through the …" [ref=e688] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=fea1747aabba9b03fef438566d5cba85b4c8303a43716fbc3cc915a3ec16ec73JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1aHR0cDovL211c2ljaGlzdG9yeWFyY2hpdmUuY29tLw&ntb=1
+              - paragraph [ref=e689]: Explore the fascinating history of music across centuries. From classical compositions to modern hits, our archive offers a detailed look at how music has evolved over time and its impact on culture worldwide.
+        - listitem [ref=e691]:
+          - generic [ref=e692]:
+            - link "Explore this image" [ref=e695] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=ZZJtuXpF&id=5FBECA06AA044B26497080143D430B36AB537393&thid=OIP.ZZJtuXpF25IsYyrZKqs3RwHaD4&mediaurl=https://www.worldhistory.org/images/ahe-og-preview.jpg&q=music+history&ck=5FCE7E28E06214CC53EA00EED9E17756&idpp=rc&expw=1200&exph=630&form=rc2idp
+              - img [ref=e696]
+            - generic [ref=e697]:
+              - link "World History Encyclopedia" [ref=e699] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=18178333e2439e2590e6bc3948093b6b9422672749c8e3d4ddc5b12a007e0ec8JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1aHR0cHM6Ly93d3cud29ybGRoaXN0b3J5Lm9yZy90aW1lbGluZS9NdXNpYy8&ntb=1
+                - img "Global web icon" [ref=e703]
+                - generic [ref=e704]:
+                  - generic [ref=e705]: World History Encyclopedia
+                  - generic [ref=e708]: https://www.worldhistory.org › timeline › Music
+              - 'heading "Timeline: Music - World History Encyclopedia" [level=2] [ref=e709]':
+                - 'link "Timeline: Music - World History Encyclopedia" [ref=e710] [cursor=pointer]':
+                  - /url: https://www.bing.com/ck/a?!&&p=18178333e2439e2590e6bc3948093b6b9422672749c8e3d4ddc5b12a007e0ec8JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1aHR0cHM6Ly93d3cud29ybGRoaXN0b3J5Lm9yZy90aW1lbGluZS9NdXNpYy8&ntb=1
+              - paragraph [ref=e711]: Life of the German composer Johann Sebastian Bach. Life of the Russian composer Dmitri Shostakovich. Explore the timeline of Music.
+        - listitem [ref=e713]:
+          - generic [ref=e714]:
+            - heading "Deep dive into music history" [level=2]:
+              - text: Deep dive into
+              - strong [ref=e715]: music history
+            - list [ref=e716]:
+              - listitem [ref=e717]:
+                - link "music history timeline" [ref=e718] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=999a767e146c60e6f6509181228b6213b837058c1c56734c9e69a66debd7c234JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1L3NlYXJjaD9xPW11c2ljK2hpc3RvcnkrdGltZWxpbmUmRk9STT1RU1JFMQ&ntb=1
+                  - generic [ref=e720]:
+                    - text: music history
+                    - strong [ref=e721]: timeline
+              - listitem [ref=e722]:
+                - link "music history calendar" [ref=e723] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=b08af0c842ef9ea42ee974018524435092d1b0920c0c70561d911d61a380ae72JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1L3NlYXJjaD9xPW11c2ljK2hpc3RvcnkrY2FsZW5kYXImRk9STT1RU1JFMg&ntb=1
+                  - generic [ref=e725]:
+                    - text: music history
+                    - strong [ref=e726]: calendar
+              - listitem [ref=e727]:
+                - link "music history books" [ref=e728] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=1b26954c8fc3c99c18149509735164425b06701444df4f1e86429d0de977cce3JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1L3NlYXJjaD9xPW11c2ljK2hpc3RvcnkrYm9va3MmRk9STT1RU1JFMw&ntb=1
+                  - generic [ref=e730]:
+                    - text: music history
+                    - strong [ref=e731]: books
+              - listitem [ref=e732]:
+                - link "music history for kids" [ref=e733] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=efc422e63566093a70b889403392aaa7b36324f2acdba551a599329c1836504eJmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1L3NlYXJjaD9xPW11c2ljK2hpc3RvcnkrZm9yK2tpZHMmRk9STT1RU1JFNA&ntb=1
+                  - generic [ref=e735]:
+                    - text: music history
+                    - strong [ref=e736]: for kids
+              - listitem [ref=e737]:
+                - link "music history trivia" [ref=e738] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=fd4844254114738f9a72aa5c278f0ae03b1dc22091a8d966fefb8d731c286d52JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1L3NlYXJjaD9xPW11c2ljK2hpc3RvcnkrdHJpdmlhJkZPUk09UVNSRTU&ntb=1
+                  - generic [ref=e740]:
+                    - text: music history
+                    - strong [ref=e741]: trivia
+              - listitem [ref=e742]:
+                - link "music history wiki" [ref=e743] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=faf12351ad6e735d0527d77b429aaa832240faec42d236f97d6783aec1bdd2e7JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1L3NlYXJjaD9xPW11c2ljK2hpc3Rvcnkrd2lraSZGT1JNPVFTUkU2&ntb=1
+                  - generic [ref=e745]:
+                    - text: music history
+                    - strong [ref=e746]: wiki
+              - listitem [ref=e747]:
+                - link "rock music history" [ref=e748] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=0ff7c2643ce9048057954283548e435e1da762faf0c12d3d99aee9a83f7be56fJmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1L3NlYXJjaD9xPXJvY2srbXVzaWMraGlzdG9yeSZGT1JNPVFTUkU3&ntb=1
+                  - generic [ref=e750]:
+                    - strong [ref=e751]: rock
+                    - text: music history
+              - listitem [ref=e752]:
+                - link "today in music" [ref=e753] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=4f810c6aa526f97052f11c9e9affe4fb2e35317b9cf73ca6f885f3944388acdfJmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1L3NlYXJjaD9xPXRvZGF5K2luK211c2ljJkZPUk09UVNSRTg&ntb=1
+                  - generic [ref=e755]:
+                    - strong [ref=e756]: today in
+                    - text: music
+        - listitem [ref=e757]:
+          - navigation "More results for music history":
+            - list:
+              - listitem [ref=e758]:
+                - generic "Page 1" [ref=e759]: "1"
+              - listitem [ref=e760]:
+                - link "Page 2" [ref=e761] [cursor=pointer]:
+                  - /url: /search?q=music+history&rnoreward=1&skipopalnative=true&filters=PollScenarioId%3a%22POLL_ENUS_RewardsDailyPoll_20251220%22+BTROID%3a%22Gamification_DailySet_20251220_Child3%22+BTROEC%3a%2210%22+BTROMC%3a%2210%22&FPIG=0AEF4460D831460EB089CA6825ECF87D&first=11&FORM=PERE
+                  - text: "2"
+              - listitem [ref=e762]:
+                - link "Page 3" [ref=e763] [cursor=pointer]:
+                  - /url: /search?q=music+history&rnoreward=1&skipopalnative=true&filters=PollScenarioId%3a%22POLL_ENUS_RewardsDailyPoll_20251220%22+BTROID%3a%22Gamification_DailySet_20251220_Child3%22+BTROEC%3a%2210%22+BTROMC%3a%2210%22&FPIG=0AEF4460D831460EB089CA6825ECF87D&first=21&FORM=PERE1
+                  - text: "3"
+              - listitem [ref=e764]:
+                - link "Next page" [ref=e765] [cursor=pointer]:
+                  - /url: /search?q=music+history&rnoreward=1&skipopalnative=true&filters=PollScenarioId%3a%22POLL_ENUS_RewardsDailyPoll_20251220%22+BTROID%3a%22Gamification_DailySet_20251220_Child3%22+BTROEC%3a%2210%22+BTROMC%3a%2210%22&FPIG=0AEF4460D831460EB089CA6825ECF87D&first=11&FORM=PORE
+    - complementary "Additional Results"
+  - contentinfo "Footer" [ref=e766]:
+    - generic [ref=e767]:
+      - list:
+        - listitem [ref=e768]:
+          - link "Privacy" [ref=e769] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=a0dabe5c5f6e99b173c280742c2eda4ad1bfe743690bc5674e8f64dd3d40c0daJmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSWQ9NTIxODM5&ntb=1
+        - listitem [ref=e770]:
+          - link "Terms" [ref=e771] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=1db3ae3303c5f2a6c93cb25a8cc2c355f32ef90fc45ae32101b7dd0bfc909d89JmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9MjQ2MzM4&ntb=1
+  - generic [ref=e777]:
+    - search [ref=e778]:
+      - textbox "Ask a follow-up" [ref=e779]:
+        - /placeholder: "Ask a follow-up "
+    - button "Send" [ref=e781] [cursor=pointer]:
+      - img [ref=e783]
+  - generic:
+    - complementary "Microsoft Rewards quiz":
+      - generic [ref=e787]:
+        - generic [ref=e788]:
+          - generic [ref=e790]:
+            - generic [ref=e791]:
+              - generic [ref=e792]:
+                - generic [ref=e793]: Here's how your answer compares
+                - generic [ref=e794]: Which music legend would you listen to right now
+              - generic [ref=e795]:
+                - button "55% users chose Frédéric Chopin. Frédéric Chopin 55%" [pressed] [ref=e796]:
+                  - alert "55% users chose Frédéric Chopin." [ref=e797]
+                  - generic:
+                    - generic [ref=e799]: Frédéric Chopin
+                    - generic [ref=e800]: 55%
+                - button "George Gershwin 45%" [ref=e801]:
+                  - generic:
+                    - generic [ref=e803]: George Gershwin
+                    - generic [ref=e804]: 45%
+            - generic:
+              - link "Previous poll Previous poll" [ref=e806] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=5ab3b1a147c18661c03213a6c8203a5fb201cccea6584363a7d191beb915964cJmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1L3NlYXJjaD9xPU91dGRvb3IrYWN0aXZpdGllcyZzZXRta3Q9ZW4tdXMmZmlsdGVycz1Jc0NvbnZlcnNhdGlvbjolMjJ0cnVlJTIyK1BvbGxTY2VuYXJpb0lkOiUyMlBPTExfRU5VU19SZXdhcmRzRGFpbHlQb2xsXzIwMjUxMjE5JTIyK0RlZmF1bHRQb2xsSWQ6JTIyMCUyMiZybm9yZXdhcmQ9MSZza2lwb3BhbG5hdGl2ZT10cnVlJkZPUk09QlRQTE5W&ntb=1
+                - img "Previous poll" [ref=e808]
+                - text: Previous poll
+              - link "Next poll Previous poll" [ref=e810] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=c8e46dd9f6e40066869705c5470f207e3db3e00e6a75f588dfdedcd194ac723eJmltdHM9MTc2NjE4ODgwMA&ptn=3&ver=2&hsh=4&fclid=292bbd2b-56a2-6dac-1488-ab94572c6c3e&u=a1L3NlYXJjaD9xPU1hc3RlcmluZythK2RhbmNlJnNldG1rdD1lbi11cyZmaWx0ZXJzPUlzQ29udmVyc2F0aW9uOiUyMnRydWUlMjIrUG9sbFNjZW5hcmlvSWQ6JTIyUE9MTF9FTlVTX1Jld2FyZHNEYWlseVBvbGxfMjAyNTEyMjElMjIrRGVmYXVsdFBvbGxJZDolMjIwJTIyJnJub3Jld2FyZD0xJnNraXBvcGFsbmF0aXZlPXRydWUmRk9STT1CVFBMTlY&ntb=1
+                - text: Next poll
+                - img "Previous poll" [ref=e812]
+          - generic [ref=e813]:
+            - img "Checkmark Image" [ref=e815]
+            - generic [ref=e816]: "10"
+            - text: points
+        - button "Close" [ref=e817]:
+          - img "Close Image" [ref=e819]
+```
